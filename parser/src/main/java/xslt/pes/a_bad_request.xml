@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/">
+    <S:Body>
+        <ns35:enrollMemberRequest xmlns:ns10="http://schemas.benefitfocus.com/common/general/2010/1/1/carrierIdentification" xmlns:ns11="http://schemas.benefitfocus.com/common/general/2010/1/1/personName" xmlns:ns12="http://schemas.benefitfocus.com/common/general/2010/2/1/address" xmlns:ns13="http://schemas.benefitfocus.com/billing/general/2010/2/1/carrierBillingInformation" xmlns:ns14="http://schemas.benefitfocus.com/common/general/2010/1/1/phoneNumber" xmlns:ns15="http://schemas.benefitfocus.com/common/general/2010/1/1/emailAddress" xmlns:ns16="http://schemas.benefitfocus.com/agent/general/2010/3/1/agentInformation" xmlns:ns17="http://schemas.benefitfocus.com/agent/general/2010/3/1/agencyInformation" xmlns:ns18="http://schemas.benefitfocus.com/member/general/2010/2/1/memberBenefit" xmlns:ns19="http://schemas.benefitfocus.com/common/general/2010/1/1/metadata" xmlns:ns2="http://schemas.benefitfocus.com/common/general/2010/1/1/platformServiceResult" xmlns:ns20="http://schemas.benefitfocus.com/common/general/2010/1/1/task" xmlns:ns21="http://schemas.benefitfocus.com/member/general/2010/2/1/memberIdentification" xmlns:ns22="http://schemas.benefitfocus.com/common/general/2010/1/1/ssn" xmlns:ns23="http://schemas.benefitfocus.com/common/general/2010/2/1/gender" xmlns:ns24="http://schemas.benefitfocus.com/common/general/2010/1/1/maritalStatus" xmlns:ns25="http://schemas.benefitfocus.com/common/general/2010/1/1/ethnicity" xmlns:ns26="http://schemas.benefitfocus.com/member/general/2010/2/1/memberPersonalIdentification" xmlns:ns27="http://schemas.benefitfocus.com/member/general/2010/2/1/familyInformation" xmlns:ns28="http://schemas.benefitfocus.com/member/general/2010/2/1/application" xmlns:ns29="http://schemas.benefitfocus.com/common/general/2010/1/1/contactInformation" xmlns:ns3="http://schemas.benefitfocus.com/common/general/2010/1/1/currency" xmlns:ns30="http://schemas.benefitfocus.com/member/general/2010/2/1/organization" xmlns:ns31="http://schemas.benefitfocus.com/member/general/2010/2/1/memberInformation" xmlns:ns32="http://schemas.benefitfocus.com/common/general/2010/1/1/message" xmlns:ns33="http://schemas.benefitfocus.com/member/general/2010/1/1/memberIdentification" xmlns:ns34="http://schemas.benefitfocus.com/common/general/2010/1/1/coverageLevelType" xmlns:ns35="http://schemas.benefitfocus.com/partner/enrollment/general/2010/1/1/" xmlns:ns36="http://schemas.benefitfocus.com/common/general/2010/1/1/sponsorIdentification" xmlns:ns37="http://schemas.benefitfocus.com/common/general/2010/2/1/sponsorIdentification" xmlns:ns4="http://schemas.benefitfocus.com/member/general/2010/1/1/memberBenefitIdentification" xmlns:ns5="http://schemas.benefitfocus.com/common/general/2010/1/1/relationship" xmlns:ns6="http://schemas.benefitfocus.com/common/general/2010/2/1/carrierDefinedFields" xmlns:ns7="http://schemas.benefitfocus.com/billing/general/2010/1/1/paymentRequest" xmlns:ns8="http://schemas.benefitfocus.com/common/general/2010/1/1/address" xmlns:ns9="http://schemas.benefitfocus.com/common/general/2010/1/1/paymentFrequency">
+            <transmissionId xmlns="">52f727c9-1aae-490e-ad41-4ac0c877e6bd</transmissionId>
+            <transactionInformation xmlns="" referenceId="B9A60FCBA3CB26E6E040C80A49116BDC">
+                <ns20:transactionDate>2012-02-01T00:00:00.000</ns20:transactionDate>
+                <ns20:transactionType>NEW_ENROLLMENT</ns20:transactionType>
+                <ns20:elementReferenceId>B9A60FCBA36426E6E040C80A49116BDC</ns20:elementReferenceId>
+            </transactionInformation>
+            <memberInformation xmlns="">
+                <ns21:memberIdentification originalEffectiveDate="2012-02-01" referenceId="B9A60FCBA36826E6E040C80A49116BDC">
+                    <BenefitfocusPersonId>B9A60FCBA36826E6E040C80A49116BDC</BenefitfocusPersonId>
+                    <personCarrierIdentification>
+                        <ns10:carrierIdentification>
+                            <BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+                            <carrierShortName>Aetna</carrierShortName>
+                        </ns10:carrierIdentification>
+                        <memberId>1296275257</memberId>
+                        <alternateMemberId>0992633853</alternateMemberId>
+                        <alternateMemberId2>85966784</alternateMemberId2>
+                    </personCarrierIdentification>
+                    <sponsorId>
+                        <BenefitfocusSponsorId>B48ED0EACBE0A9FFE040C80A47112396</BenefitfocusSponsorId>
+                        <sponsorName>Aetna IVL Group</sponsorName>
+                    </sponsorId>
+                </ns21:memberIdentification>
+                <ns26:memberPersonalIdentification referenceId="B9A60FCBA36826E6E040C80A49116BDC">
+                    <ns11:personName>
+                        <lastName>ZZHeffernanZZ</lastName>
+                        <firstName>Doug</firstName>
+                        <middleName>A</middleName>
+                        <suffix>I</suffix>
+                    </ns11:personName>
+                    <ns12:address effectiveDate="2012-02-01">
+                        <ns12:primaryStreet>133 Test Ln</ns12:primaryStreet>
+                        <ns12:secondaryStreet>Apt. 324</ns12:secondaryStreet>
+                        <ns12:city>Columbia</ns12:city>
+                        <ns12:county>Richland</ns12:county>
+                        <ns12:state>SC</ns12:state>
+                        <ns12:country>US</ns12:country>
+                        <ns12:postalCode>29212</ns12:postalCode>
+                    </ns12:address>
+                    <ns14:homePhoneNumber>1-803-407-8869</ns14:homePhoneNumber>
+                    <ns14:mobilePhoneNumber>1-803-999-9585</ns14:mobilePhoneNumber>
+                    <ns14:alternatePhoneNumber>1-803-411-9595</ns14:alternatePhoneNumber>
+                    <ns15:emailAddress>BobbySkorupski@fakeEmail.com</ns15:emailAddress>
+                    <ns22:ssn>219-98-1063</ns22:ssn>
+                    <ns23:gender effectiveDate="2012-02-01">MALE</ns23:gender>
+                    <birthDate>1980-01-01</birthDate>
+                    <ns24:maritalStatus>MARRIED</ns24:maritalStatus>
+                    <ns25:ethnicity>WHITE</ns25:ethnicity>
+                    <personalIdentificationChangeEffectiveDate>2012-02-01</personalIdentificationChangeEffectiveDate>
+                </ns26:memberPersonalIdentification>
+                <ns27:familyInformation/>
+                <ns28:application effectiveDate="2012-02-01">
+                    <applicationId>BF0226658501201229</applicationId>
+                    <applicationType>PAPER</applicationType>
+                    <receivedDate>2012-02-01</receivedDate>
+                    <signatureDate>2012-02-01</signatureDate>
+                    <applicant>
+                        <memberIdentificationReferenceId>B9A60FCBA36826E6E040C80A49116BDC</memberIdentificationReferenceId>
+                        <applicantId>24453214</applicantId>
+                        <status>In Progress</status>
+                    </applicant>
+                    <ns6:carrierDefinedFields>
+                        <ns6:carrierDefinedField effectiveDate="2012-02-01">
+                            <BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+                            <displayName>Application Source</displayName>
+                            <type>APPLICATION_SOURCE</type>
+                            <value>MANUAL</value>
+                            <dataValueType>STRING</dataValueType>
+                        </ns6:carrierDefinedField>
+                    </ns6:carrierDefinedFields>
+                </ns28:application>
+                <ns18:memberBenefit referenceId="B9A60FCBA36426E6E040C80A49116BDC">
+                    <subscriber referenceId="B9A60FCBA36326E6E040C80A49116BDC">
+                        <memberIdentificationReferenceId>B9A60FCBA36826E6E040C80A49116BDC</memberIdentificationReferenceId>
+                        <ns4:memberBenefitIdentification>
+                            <memberBenefitId>CUMB-673342112</memberBenefitId>
+                            <altMemberBenefitId>W-936546067</altMemberBenefitId>
+                        </ns4:memberBenefitIdentification>
+                    </subscriber>
+                    <planName>Medical Plan 1</planName>
+                    <planID>M1</planID>
+                    <productType>POS</productType>
+                    <benefitType>MEDICAL</benefitType>
+                    <planRate effectiveDate="2012-02-01">
+                        <memberCost>
+                            <ns3:currency>
+                                <currencyType>USD</currencyType>
+                                <amount>3.50</amount>
+                            </ns3:currency>
+                        </memberCost>
+                        <rateGuaranteeExpirationDate>2013-02-01</rateGuaranteeExpirationDate>
+                    </planRate>
+                    <coverageIndicator>true</coverageIndicator>
+                    <coverageLevelName>Subscriber</coverageLevelName>
+                    <coverageLevelType>EmployeeOnly</coverageLevelType>
+                    <coverageDates>
+                        <originalEffectiveDate>
+                            <value>2012-02-01</value>
+                        </originalEffectiveDate>
+                        <effectiveDate>2012-02-01</effectiveDate>
+                    </coverageDates>
+                    <tobaccoUsage>false</tobaccoUsage>
+                    <ns6:carrierDefinedFields>
+                        <ns6:carrierDefinedField effectiveDate="2012-02-01">
+                            <BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+                            <displayName>MEDICARE_IND</displayName>
+                            <type>MEDICARE_IND</type>
+                            <value>No</value>
+                            <dataValueType>STRING</dataValueType>
+                        </ns6:carrierDefinedField>
+                        <ns6:carrierDefinedField effectiveDate="2012-02-01">
+                            <BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+                            <displayName>CONTROL_NBR</displayName>
+                            <type>CONTROL_NBR</type>
+                            <value>942</value>
+                            <dataValueType>STRING</dataValueType>
+                        </ns6:carrierDefinedField>
+                        <ns6:carrierDefinedField effectiveDate="2012-02-01">
+                            <BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+                            <displayName>HIPAA_IND</displayName>
+                            <type>HIPAA_IND</type>
+                            <value>FALSE</value>
+                            <dataValueType>BOOLEAN</dataValueType>
+                        </ns6:carrierDefinedField>
+                        <ns6:carrierDefinedField effectiveDate="2012-02-01">
+                            <BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+                            <displayName>INDIVIDUAL_RATEUP_FACTOR</displayName>
+                            <type>INDIVIDUAL_RATEUP_FACTOR</type>
+                            <value>A1 / 1.1</value>
+                            <dataValueType>STRING</dataValueType>
+                        </ns6:carrierDefinedField>
+                        <ns6:carrierDefinedField effectiveDate="2012-02-01">
+                            <BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+                            <displayName>ACCOUNT_NBR</displayName>
+                            <type>ACCOUNT_NBR</type>
+                            <value>893</value>
+                            <dataValueType>STRING</dataValueType>
+                        </ns6:carrierDefinedField>
+                        <ns6:carrierDefinedField effectiveDate="2012-02-01">
+                            <BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+                            <displayName>PACKAGE_ID</displayName>
+                            <type>PACKAGE_ID</type>
+                            <value>822</value>
+                            <dataValueType>STRING</dataValueType>
+                        </ns6:carrierDefinedField>
+                        <ns6:carrierDefinedField effectiveDate="2012-02-01">
+                            <BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+                            <displayName>FINAL_RATEUP_FACTOR</displayName>
+                            <type>FINAL_RATEUP_FACTOR</type>
+                            <value>A1 / 1.1</value>
+                            <dataValueType>STRING</dataValueType>
+                        </ns6:carrierDefinedField>
+                    </ns6:carrierDefinedFields>
+                    <primaryCareProvider effectiveDate="2012-02-01">
+                        <name>ProviderName</name>
+                        <code>84108</code>
+                        <networkId>194338</networkId>
+                    </primaryCareProvider>
+                    <initialPayment/>
+                    <recurringPayment>
+                        <ns9:paymentFrequency>ANNUALLY</ns9:paymentFrequency>
+                    </recurringPayment>
+                    <ns13:carrierBillingInformation originalEffectiveDate="2012-02-01">
+                        <ns10:carrierIdentification>
+                            <BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+                            <carrierShortName>Aetna</carrierShortName>
+                        </ns10:carrierIdentification>
+                        <responsibleParty effectiveDate="2012-02-01">
+                            <ns11:personName>
+                                <lastName>ZZHeffernanZZ</lastName>
+                                <firstName>Doug</firstName>
+                                <middleName>A</middleName>
+                            </ns11:personName>
+                            <ns12:address>
+                                <ns12:primaryStreet>133 Test Ln</ns12:primaryStreet>
+                                <ns12:secondaryStreet>Apt. 324</ns12:secondaryStreet>
+                                <ns12:city>Columbia</ns12:city>
+                                <ns12:county>Richland</ns12:county>
+                                <ns12:state>SC</ns12:state>
+                                <ns12:country>US</ns12:country>
+                                <ns12:postalCode>29212</ns12:postalCode>
+                            </ns12:address>
+                        </responsibleParty>
+                        <billingUnitId>6397656390-6012</billingUnitId>
+                        <billingGroupId>6397656390</billingGroupId>
+                        <billingDay>15</billingDay>
+                    </ns13:carrierBillingInformation>
+                    <ns17:agencyAgentAssignment effectiveDate="2012-02-01" referenceId="B9A60FCBA38F26E6E040C80A49116BDC">
+                        <agencyIdentification>
+                            <BenefitfocusAgencyId>B9A60FCBA39B26E6E040C80A49116BDC</BenefitfocusAgencyId>
+                            <taxId>940178906</taxId>
+                            <ns10:carrierIdentification>
+                                <BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+                                <carrierShortName>Aetna</carrierShortName>
+                            </ns10:carrierIdentification>
+                        </agencyIdentification>
+                        <agencyName>Test Agency708389</agencyName>
+                        <ns16:agentInformation>
+                            <agentIdentification>
+                                <BenefitfocusAgentId>B9A60FCBA39126E6E040C80A49116BDC</BenefitfocusAgentId>
+                                <ns10:carrierIdentification>
+                                    <BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+                                    <carrierShortName>Aetna</carrierShortName>
+                                </ns10:carrierIdentification>
+                            </agentIdentification>
+                            <ns11:personName>
+                                <lastName>Test Agency708389</lastName>
+                                <firstName>Test Agency708389</firstName>
+                            </ns11:personName>
+                        </ns16:agentInformation>
+                        <compensationType>REDUCED</compensationType>
+                    </ns17:agencyAgentAssignment>
+                </ns18:memberBenefit>
+                <ns29:contactInformation>
+                    <communicationPreference>MAIL</communicationPreference>
+                    <emailCommunicationEnabled>false</emailCommunicationEnabled>
+                    <preferredLanguage>ENGLISH</preferredLanguage>
+                </ns29:contactInformation>
+                <ns30:organization effectiveDate="2012-02-01" referenceId="B9A60FCBA3B926E6E040C80A49116BDC">
+                    <carrierOrganizationId>AetnaOrg1</carrierOrganizationId>
+                    <organizationName>Aetna Organization Association</organizationName>
+                    <active>false</active>
+                    <organizationMemberId>Test Member Id210</organizationMemberId>
+                </ns30:organization>
+            </memberInformation>
+        </ns35:enrollMemberRequest>
+    </S:Body>
+</S:Envelope>

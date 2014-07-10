@@ -1,0 +1,206 @@
+<?xml version="1.0"?>
+<BillingSignificantEventInformation>
+	<memberIdentification originalEffectiveDate="2011-11-01" referenceId="B3FFC1A431587727E040C80A201742A0">
+		<BenefitfocusPersonId>B3FFC1A431587727E040C80A201742A0</BenefitfocusPersonId>
+		<personCarrierIdentification>
+			<carrierIdentification>
+				<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+				<carrierShortName>Aetna</carrierShortName>
+			</carrierIdentification>
+			<memberId>22897190890692</memberId>
+		</personCarrierIdentification>
+		<sponsorId>
+			<BenefitfocusSponsorId>AA4BF2233DF46D84E040C80A20171CD8</BenefitfocusSponsorId>
+			<sponsorName>Aetna IVL Test Group</sponsorName>
+		</sponsorId>
+	</memberIdentification>
+	<memberPersonalIdentification referenceId="B3FFC1A431587727E040C80A201742A0">
+		<personName>
+			<lastName>Walker</lastName>
+			<firstName>David</firstName>
+		</personName>
+		<address effectiveDate="2011-11-01">
+			<primaryStreet>203 Test Avet</primaryStreet>
+			<city>Maryville</city>
+			<county>CountyTN</county>
+			<state>TN</state>
+			<country>US</country>
+			<postalCode>37801</postalCode>
+		</address>
+		<homePhoneNumber>615-288-1627</homePhoneNumber>
+		<emailAddress>bf@bf.com</emailAddress>
+		<ssn>196-39-9172</ssn>
+		<gender effectiveDate="2011-11-01">MALE</gender>
+		<birthDate>1963-01-01</birthDate>
+		<personalIdentificationChangeEffectiveDate>2011-12-13</personalIdentificationChangeEffectiveDate>
+	</memberPersonalIdentification>
+	<applicationId>BF0005414</applicationId>
+	<newApplicationId>BF0005414</newApplicationId>
+	<eventDate>2011-12-13T15:05:40.781</eventDate>
+	<memberBenefit referenceId="B3FFC1A431547727E040C80A201742A0">
+		<subscriber referenceId="B3FFC1A431537727E040C80A201742A0">
+			<memberIdentificationReferenceId>B3FFC1A431587727E040C80A201742A0</memberIdentificationReferenceId>
+			<memberBenefitIdentification>
+				<memberBenefitId>W2619 20093-01</memberBenefitId>
+				<altMemberBenefitId>261920093</altMemberBenefitId>
+			</memberBenefitIdentification>
+		</subscriber>
+		<planName>PPO 10000</planName>
+		<planID>1403728</planID>
+		<productType>PPO</productType>
+		<ratingArea>TNRA02</ratingArea>
+		<benefitType>MEDICAL</benefitType>
+		<planRate effectiveDate="2011-11-01">
+			<memberCost>
+				<currency>
+					<currencyType>USD</currencyType>
+					<amount>181.00</amount>
+				</currency>
+			</memberCost>
+			<rateGuaranteeExpirationDate>2012-11-01</rateGuaranteeExpirationDate>
+			<basePremium>
+				<currency>
+					<currencyType>USD</currencyType>
+					<amount>165.00</amount>
+				</currency>
+			</basePremium>
+			<basePremiumFactor>0.912</basePremiumFactor>
+		</planRate>
+		<coverageIndicator>true</coverageIndicator>
+		<coverageLevelName>Subscriber</coverageLevelName>
+		<coverageLevelType>EmployeeOnly</coverageLevelType>
+		<coverageDates>
+			<originalEffectiveDate>
+				<value>2011-11-01</value>
+			</originalEffectiveDate>
+			<effectiveDate>2011-11-01</effectiveDate>
+		</coverageDates>
+		<tobaccoUsage>false</tobaccoUsage>
+		<carrierDefinedFields>
+			<carrierDefinedField effectiveDate="2011-11-01" referenceId="B3FFC1A431527727E040C80A201742A0">
+				<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+				<displayName>CONTROL_NBR</displayName>
+				<type>CONTROL_NBR</type>
+				<value>888189</value>
+				<dataValueType>STRING</dataValueType>
+			</carrierDefinedField>
+			<carrierDefinedField effectiveDate="2011-11-01" referenceId="B3FFC1A431767727E040C80A201742A0">
+				<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+				<displayName>MEDICARE_IND</displayName>
+				<type>MEDICARE_IND</type>
+				<value>No</value>
+				<dataValueType>STRING</dataValueType>
+			</carrierDefinedField>
+			<carrierDefinedField effectiveDate="2011-11-01" referenceId="B3FFC1A4314F7727E040C80A201742A0">
+				<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+				<displayName>HIPAA_IND</displayName>
+				<type>HIPAA_IND</type>
+				<value>FALSE</value>
+				<dataValueType>BOOLEAN</dataValueType>
+			</carrierDefinedField>
+			<carrierDefinedField effectiveDate="2011-11-01" referenceId="B3FFC1A4314B7727E040C80A201742A0">
+				<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+				<displayName>PRODUCT_LINE_CODE</displayName>
+				<type>PRODUCT_LINE_CODE</type>
+				<value>6</value>
+				<dataValueType>STRING</dataValueType>
+			</carrierDefinedField>
+			<carrierDefinedField effectiveDate="2011-11-01" referenceId="B3FFC1A431747727E040C80A201742A0">
+				<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+				<displayName>INDIVIDUAL_RATEUP_FACTOR</displayName>
+				<type>INDIVIDUAL_RATEUP_FACTOR</type>
+				<value>1.7</value>
+				<dataValueType>STRING</dataValueType>
+			</carrierDefinedField>
+			<carrierDefinedField effectiveDate="2011-11-01" referenceId="B3FFC1A4314D7727E040C80A201742A0">
+				<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+				<displayName>REDUCED_COMP_INDICATOR</displayName>
+				<type>REDUCED_COMP_INDICATOR</type>
+				<value>FALSE</value>
+				<dataValueType>BOOLEAN</dataValueType>
+			</carrierDefinedField>
+			<carrierDefinedField effectiveDate="2011-11-01" referenceId="B3FFC1A431757727E040C80A201742A0">
+				<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+				<displayName>UW_LEVEL</displayName>
+				<type>UW_LEVEL</type>
+				<value>A1</value>
+				<dataValueType>STRING</dataValueType>
+			</carrierDefinedField>
+			<carrierDefinedField effectiveDate="2011-11-01" referenceId="B3FFC1A431507727E040C80A201742A0">
+				<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+				<displayName>PACKAGE_ID</displayName>
+				<type>PACKAGE_ID</type>
+				<value>58</value>
+				<dataValueType>STRING</dataValueType>
+			</carrierDefinedField>
+			<carrierDefinedField effectiveDate="2011-11-01" referenceId="B3FFC1A431517727E040C80A201742A0">
+				<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+				<displayName>ACCOUNT_NBR</displayName>
+				<type>ACCOUNT_NBR</type>
+				<value>5</value>
+				<dataValueType>STRING</dataValueType>
+			</carrierDefinedField>
+			<carrierDefinedField effectiveDate="2011-11-01" referenceId="B3FFC1A4314C7727E040C80A201742A0">
+				<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+				<displayName>WELCOME_LETTER</displayName>
+				<type>WELCOME_LETTER</type>
+				<value>6CO</value>
+				<dataValueType>STRING</dataValueType>
+			</carrierDefinedField>
+			<carrierDefinedField effectiveDate="2011-11-01" referenceId="B3FFC1A431777727E040C80A201742A0">
+				<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+				<displayName>FINAL_RATEUP_FACTOR</displayName>
+				<type>FINAL_RATEUP_FACTOR</type>
+				<value>1.1</value>
+				<dataValueType>STRING</dataValueType>
+			</carrierDefinedField>
+			<carrierDefinedField effectiveDate="2011-11-01" referenceId="B3FFC1A4314E7727E040C80A201742A0">
+				<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+				<displayName>GA_SUPPRESS_INDICATOR</displayName>
+				<type>GA_SUPPRESS_INDICATOR</type>
+				<value>FALSE</value>
+				<dataValueType>BOOLEAN</dataValueType>
+			</carrierDefinedField>
+		</carrierDefinedFields>
+		<primaryCareProvider>
+			<code>1823612</code>
+		</primaryCareProvider>
+		<initialPayment>
+			<Payment>
+				<PaymentAmount>0</PaymentAmount>
+				<HoldPaymentFlag>false</HoldPaymentFlag>
+			</Payment>
+		</initialPayment>
+		<recurringPayment>
+			<Payment>
+				<PaymentAmount>0</PaymentAmount>
+				<HoldPaymentFlag>false</HoldPaymentFlag>
+			</Payment>
+		</recurringPayment>
+		<carrierBillingInformation originalEffectiveDate="2011-11-01">
+			<carrierIdentification>
+				<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+				<carrierShortName>Aetna</carrierShortName>
+			</carrierIdentification>
+			<responsibleParty effectiveDate="2011-11-01">
+				<personName>
+					<lastName>Walker</lastName>
+					<firstName>David</firstName>
+				</personName>
+				<address>
+					<primaryStreet>203 Test Avet</primaryStreet>
+					<city>Maryville</city>
+					<state>TN</state>
+					<country>US</country>
+					<postalCode>37801</postalCode>
+				</address>
+			</responsibleParty>
+			<billingGroupId>BF0005414</billingGroupId>
+			<billingDay>1</billingDay>
+		</carrierBillingInformation>
+	</memberBenefit>
+	<transaction referenceId="95583610">
+		<transactionObjectReferenceId>B3FFC1A431587727E040C80A201742A0</transactionObjectReferenceId>
+		<memberTransactionTypes>ADD_SUBSCRIBER</memberTransactionTypes>
+	</transaction>
+</BillingSignificantEventInformation>

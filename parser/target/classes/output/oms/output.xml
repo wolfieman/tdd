@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<b:OMS xmlns:b="http://bf.bts.applications.ESB.schema.Export.Fulfillment.AetnaOMS"
+       xmlns:msxsl="urn:schemas-microsoft-com:xslt"
+       xmlns:f="http://schemas.benefitfocus.com/common/general/2010/2/1/address"
+       xmlns:e="http://schemas.benefitfocus.com/common/general/2010/1/1/currency"
+       xmlns:d="http://schemas.benefitfocus.com/member/general/2010/1/1/memberBenefitIdentification"
+       xmlns:c="http://schemas.benefitfocus.com/common/general/2010/1/1/personName"
+       xmlns:a="http://schemas.benefitfocus.com/events/general/2011/1/1/notificationRequest">
+    <HeaderContainer>
+        <Header>
+            <WS-HEADER-FILE-DESCRIPTION>Benefitfocus Daily Fulfillment Feed</WS-HEADER-FILE-DESCRIPTION>
+            <WS-HEADER-EOL>*</WS-HEADER-EOL>
+        </Header>
+    </HeaderContainer>
+    <BeginGroupContainer>
+        <BeginGroup>
+            <WS-GT-LETTER-CODE>6EC</WS-GT-LETTER-CODE>
+            <WS-GT-POLICY-HOLDER-NAME>Adam Venkat</WS-GT-POLICY-HOLDER-NAME>
+            <WS-GT-SUBSCRIBER-NAME>Venkat</WS-GT-SUBSCRIBER-NAME>
+            <WS-GT-MEMBER-NAME>Venkat</WS-GT-MEMBER-NAME>
+            <WS-GT-PRIMARY-APPLICANT-NAME>Venkat</WS-GT-PRIMARY-APPLICANT-NAME>
+            <WS-GT-MAILTO-ADDR-NAME>Venkat</WS-GT-MAILTO-ADDR-NAME>
+            <WS-GT-MAILTO-ADDRESS-LINE1>5925 TNHB Richard Street</WS-GT-MAILTO-ADDRESS-LINE1>
+            <WS-GT-MAILTO-CITY>Adams</WS-GT-MAILTO-CITY>
+            <WS-GT-MAILTO-STATE>TN</WS-GT-MAILTO-STATE>
+            <WS-GT-MAILTO-ZIP>37010</WS-GT-MAILTO-ZIP>
+            <WS-GT-SEQ-NUM>0</WS-GT-SEQ-NUM>
+            <WS-GT-INDIV-CUST-GRP-IDENTIFIER>BF0011156</WS-GT-INDIV-CUST-GRP-IDENTIFIER>
+            <WS-GT-TRANS-ID>f893cc4a3b3f1328567574131</WS-GT-TRANS-ID>
+            <WS-GT-CARRIER-NAME>AIPS</WS-GT-CARRIER-NAME>
+            <WS-GT-EFT-REJECT-MSG>REVERSAL</WS-GT-EFT-REJECT-MSG>
+            <WS-GT-NEW-COMBINED-MTH-PREMIUM>0.00</WS-GT-NEW-COMBINED-MTH-PREMIUM>
+            <WS-GT-RATE-INCR-AMT>0.00</WS-GT-RATE-INCR-AMT>
+            <WS-GT-RATE-INCR-BP-AMT>0.00</WS-GT-RATE-INCR-BP-AMT>
+            <WS-GT-RATE-INCR-SUB-AMT>0.00</WS-GT-RATE-INCR-SUB-AMT>
+            <WS-GT-EOL>*</WS-GT-EOL>
+        </BeginGroup>
+        <EndGroupContainer>
+            <EndGroup>
+                <WS-GT-EOL>*</WS-GT-EOL>
+            </EndGroup>
+        </EndGroupContainer>
+    </BeginGroupContainer>
+    <TrailerContainer>
+        <Trailer>
+            <WS-TRLR-DOC-CNT>1</WS-TRLR-DOC-CNT>
+            <WS-TRLR-CHK-CNT>0000000000</WS-TRLR-CHK-CNT>
+            <WS-TRLR-CHK-TTL>00000000000.00</WS-TRLR-CHK-TTL>
+            <WS-TRLR-FILLER/>
+            <WS-TRLR-EOL>*</WS-TRLR-EOL>
+        </Trailer>
+    </TrailerContainer>
+</b:OMS>

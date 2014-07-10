@@ -1,0 +1,400 @@
+<?xml version="1.0"?>
+<BillingSignificantEventInformation>
+	<memberIdentification originalEffectiveDate="2011-10-01" referenceId="B00F06DCA77A6986E040C80A20176372">
+		<BenefitfocusPersonId>B00F06DCA77A6986E040C80A20176372</BenefitfocusPersonId>
+		<personCarrierIdentification>
+			<carrierIdentification>
+				<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+				<carrierShortName>Aetna</carrierShortName>
+			</carrierIdentification>
+			<memberId>11298T111305</memberId>
+		</personCarrierIdentification>
+		<sponsorId>
+			<BenefitfocusSponsorId>AA4BF2233DF46D84E040C80A20171CD8</BenefitfocusSponsorId>
+			<sponsorName>Aetna IVL Test Group</sponsorName>
+		</sponsorId>
+	</memberIdentification>
+	<memberPersonalIdentification referenceId="B00F06DCA77A6986E040C80A20176372">
+		<personName>
+			<lastName>Success</lastName>
+			<firstName>SubDep</firstName>
+		</personName>
+		<address effectiveDate="2011-10-01">
+			<primaryStreet>3027 West Oak St</primaryStreet>
+			<city>Hendersonville</city>
+			<county>CountyTwo</county>
+			<state>NC</state>
+			<country>US</country>
+			<postalCode>27006</postalCode>
+		</address>
+		<homePhoneNumber>123-451-2357</homePhoneNumber>
+		<emailAddress>subdeptest@bf.com</emailAddress>
+		<ssn>345-12-3476</ssn>
+		<gender effectiveDate="2011-10-01">MALE</gender>
+		<birthDate>1980-08-01</birthDate>
+		<personalIdentificationChangeEffectiveDate>2011-10-24</personalIdentificationChangeEffectiveDate>
+	</memberPersonalIdentification>
+	<applicationId>BF000007815</applicationId>
+	<newApplicationId>BF000007815</newApplicationId>
+	<eventDate>2011-10-25T11:12:05.977</eventDate>
+	<familyMemberInformation referenceId="B00F06DCA7796986E040C80A20176372">
+		<memberIdentification originalEffectiveDate="2011-10-01" referenceId="B00F06DCA7796986E040C80A20176372">
+			<BenefitfocusPersonId>B00F06DCA7796986E040C80A20176372</BenefitfocusPersonId>
+			<personCarrierIdentification>
+				<carrierIdentification>
+					<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+					<carrierShortName>Aetna</carrierShortName>
+				</carrierIdentification>
+				<memberId>11298T111305</memberId>
+			</personCarrierIdentification>
+			<sponsorId>
+				<BenefitfocusSponsorId>AA4BF2233DF46D84E040C80A20171CD8</BenefitfocusSponsorId>
+				<sponsorName>Aetna IVL Test Group</sponsorName>
+			</sponsorId>
+		</memberIdentification>
+		<memberPersonalIdentification referenceId="B00F06DCA7796986E040C80A20176372">
+			<personName>
+				<lastName>Success</lastName>
+				<firstName>SpouseDep</firstName>
+			</personName>
+			<ssn>234-51-2834</ssn>
+			<gender effectiveDate="2011-10-01">FEMALE</gender>
+			<birthDate>1981-07-23</birthDate>
+			<personalIdentificationChangeEffectiveDate>2011-10-24</personalIdentificationChangeEffectiveDate>
+		</memberPersonalIdentification>
+	</familyMemberInformation>
+	<familyMemberInformation referenceId="B01290369161249CE040C80A20176DF2">
+		<memberIdentification originalEffectiveDate="2011-10-01" referenceId="B01290369161249CE040C80A20176DF2">
+			<BenefitfocusPersonId>B01290369161249CE040C80A20176DF2</BenefitfocusPersonId>
+			<personCarrierIdentification>
+				<carrierIdentification>
+					<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+					<carrierShortName>Aetna</carrierShortName>
+				</carrierIdentification>
+				<memberId>11298T111305</memberId>
+			</personCarrierIdentification>
+			<sponsorId>
+				<BenefitfocusSponsorId>AA4BF2233DF46D84E040C80A20171CD8</BenefitfocusSponsorId>
+				<sponsorName>Aetna IVL Test Group</sponsorName>
+			</sponsorId>
+		</memberIdentification>
+		<memberPersonalIdentification referenceId="B01290369161249CE040C80A20176DF2">
+			<personName>
+				<lastName>Success</lastName>
+				<firstName>ChildDep</firstName>
+			</personName>
+			<ssn>451-24-1234</ssn>
+			<gender effectiveDate="2011-10-01">FEMALE</gender>
+			<birthDate>2005-08-23</birthDate>
+			<personalIdentificationChangeEffectiveDate>2011-10-24</personalIdentificationChangeEffectiveDate>
+		</memberPersonalIdentification>
+	</familyMemberInformation>
+	<familyMemberInformation referenceId="B0149092A7F3D9DEE040C80A201721F6">
+		<memberIdentification originalEffectiveDate="2011-10-01" referenceId="B0149092A7F3D9DEE040C80A201721F6">
+			<BenefitfocusPersonId>B0149092A7F3D9DEE040C80A201721F6</BenefitfocusPersonId>
+			<personCarrierIdentification>
+				<carrierIdentification>
+					<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+					<carrierShortName>Aetna</carrierShortName>
+				</carrierIdentification>
+				<memberId>11298T111305</memberId>
+			</personCarrierIdentification>
+			<sponsorId>
+				<BenefitfocusSponsorId>AA4BF2233DF46D84E040C80A20171CD8</BenefitfocusSponsorId>
+				<sponsorName>Aetna IVL Test Group</sponsorName>
+			</sponsorId>
+		</memberIdentification>
+		<memberPersonalIdentification referenceId="B0149092A7F3D9DEE040C80A201721F6">
+			<personName>
+				<lastName>Success</lastName>
+				<firstName>StudentDep</firstName>
+			</personName>
+			<ssn>624-16-2361</ssn>
+			<gender effectiveDate="2011-10-01">MALE</gender>
+			<birthDate>1992-09-14</birthDate>
+			<personalIdentificationChangeEffectiveDate>2011-10-24</personalIdentificationChangeEffectiveDate>
+		</memberPersonalIdentification>
+	</familyMemberInformation>
+	<memberBenefit referenceId="B00F06DCA7746986E040C80A20176372">
+		<subscriber referenceId="B00F06DCA7736986E040C80A20176372">
+			<memberIdentificationReferenceId>B00F06DCA77A6986E040C80A20176372</memberIdentificationReferenceId>
+			<memberBenefitIdentification>
+				<memberBenefitId>11298T111305</memberBenefitId>
+				<altMemberBenefitId>11298T111305</altMemberBenefitId>
+			</memberBenefitIdentification>
+		</subscriber>
+		<planName>Managed Choice Open Access 3500</planName>
+		<planID>1404417</planID>
+		<productType>PPO</productType>
+		<benefitType>MEDICAL</benefitType>
+		<planRate effectiveDate="2011-10-01">
+			<memberCost>
+				<currency>
+					<currencyType>USD</currencyType>
+					<amount>0.00</amount>
+				</currency>
+			</memberCost>
+			<rateGuaranteeExpirationDate>2012-09-15</rateGuaranteeExpirationDate>
+			<basePremium>
+				<currency>
+					<currencyType>USD</currencyType>
+					<amount>0.00</amount>
+				</currency>
+			</basePremium>
+			<basePremiumFactor>0.0</basePremiumFactor>
+		</planRate>
+		<coverageIndicator>true</coverageIndicator>
+		<coverageLevelName>Subscriber + Family</coverageLevelName>
+		<coverageLevelType>Family</coverageLevelType>
+		<coverageDates>
+			<originalEffectiveDate>
+				<value>2011-10-01</value>
+			</originalEffectiveDate>
+			<effectiveDate>2011-10-01</effectiveDate>
+		</coverageDates>
+		<tobaccoUsage>false</tobaccoUsage>
+		<carrierDefinedFields>
+			<carrierDefinedField effectiveDate="2011-10-01" referenceId="B00F06DCA7726986E040C80A20176372">
+				<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+				<displayName>CONTROL_NBR</displayName>
+				<type>CONTROL_NBR</type>
+				<value>888184</value>
+				<dataValueType>STRING</dataValueType>
+			</carrierDefinedField>
+			<carrierDefinedField effectiveDate="2011-10-01" referenceId="B00F06DCA76B6986E040C80A20176372">
+				<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+				<displayName>MEDICARE_IND</displayName>
+				<type>MEDICARE_IND</type>
+				<value>No</value>
+				<dataValueType>STRING</dataValueType>
+			</carrierDefinedField>
+			<carrierDefinedField effectiveDate="2011-10-01" referenceId="B00F06DCA76F6986E040C80A20176372">
+				<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+				<displayName>HIPAA_IND</displayName>
+				<type>HIPAA_IND</type>
+				<value>FALSE</value>
+				<dataValueType>BOOLEAN</dataValueType>
+			</carrierDefinedField>
+			<carrierDefinedField effectiveDate="2011-10-01" referenceId="B00F798402079E93E040C80A20170A64">
+				<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+				<displayName>INDIVIDUAL_RATEUP_FACTOR</displayName>
+				<type>INDIVIDUAL_RATEUP_FACTOR</type>
+				<value>1.7</value>
+				<dataValueType>STRING</dataValueType>
+			</carrierDefinedField>
+			<carrierDefinedField effectiveDate="2011-10-01" referenceId="B00F06DCA76D6986E040C80A20176372">
+				<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+				<displayName>REDUCED_COMP_INDICATOR</displayName>
+				<type>REDUCED_COMP_INDICATOR</type>
+				<value>FALSE</value>
+				<dataValueType>BOOLEAN</dataValueType>
+			</carrierDefinedField>
+			<carrierDefinedField effectiveDate="2011-10-01" referenceId="B00F798402089E93E040C80A20170A64">
+				<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+				<displayName>UW_LEVEL</displayName>
+				<type>UW_LEVEL</type>
+				<value>A1</value>
+				<dataValueType>STRING</dataValueType>
+			</carrierDefinedField>
+			<carrierDefinedField effectiveDate="2011-10-01" referenceId="B00F06DCA7716986E040C80A20176372">
+				<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+				<displayName>ACCOUNT_NBR</displayName>
+				<type>ACCOUNT_NBR</type>
+				<value>1</value>
+				<dataValueType>STRING</dataValueType>
+			</carrierDefinedField>
+			<carrierDefinedField effectiveDate="2011-10-01" referenceId="B00F06DCA7706986E040C80A20176372">
+				<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+				<displayName>PACKAGE_ID</displayName>
+				<type>PACKAGE_ID</type>
+				<value>10</value>
+				<dataValueType>STRING</dataValueType>
+			</carrierDefinedField>
+			<carrierDefinedField effectiveDate="2011-10-01" referenceId="B00F06DCA76C6986E040C80A20176372">
+				<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+				<displayName>FINAL_RATEUP_FACTOR</displayName>
+				<type>FINAL_RATEUP_FACTOR</type>
+				<value>1.1</value>
+				<dataValueType>STRING</dataValueType>
+			</carrierDefinedField>
+			<carrierDefinedField effectiveDate="2011-10-01" referenceId="B00F06DCA76E6986E040C80A20176372">
+				<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+				<displayName>GA_SUPPRESS_INDICATOR</displayName>
+				<type>GA_SUPPRESS_INDICATOR</type>
+				<value>FALSE</value>
+				<dataValueType>BOOLEAN</dataValueType>
+			</carrierDefinedField>
+		</carrierDefinedFields>
+		<primaryCareProvider effectiveDate="2011-10-01">
+			<name>SomeName</name>
+			<code>SomeCode</code>
+			<networkId>123</networkId>
+		</primaryCareProvider>
+		<carrierBillingInformation originalEffectiveDate="2011-10-01">
+			<carrierIdentification>
+				<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+				<carrierShortName>Aetna</carrierShortName>
+			</carrierIdentification>
+			<responsibleParty effectiveDate="2011-10-01">
+				<personName>
+					<lastName>Success</lastName>
+					<firstName>SubDep</firstName>
+				</personName>
+				<address>
+					<primaryStreet>3027 West Oak St</primaryStreet>
+					<city>Hendersonville</city>
+					<state>NC</state>
+					<country>US</country>
+					<postalCode>27006</postalCode>
+				</address>
+			</responsibleParty>
+			<billingUnitId>1001</billingUnitId>
+			<billingGroupId>IVL0BF102401</billingGroupId>
+			<billingDay>1</billingDay>
+		</carrierBillingInformation>
+		<familyMember referenceId="B0129036915F249CE040C80A20176DF2">
+			<memberIdentificationReferenceId>B01290369161249CE040C80A20176DF2</memberIdentificationReferenceId>
+			<relationship>CHILD</relationship>
+			<carrierDefinedFields>
+				<carrierDefinedField effectiveDate="2011-10-01" referenceId="B0129036915B249CE040C80A20176DF2">
+					<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+					<type>MEDICARE_IND</type>
+					<value>No</value>
+					<dataValueType>STRING</dataValueType>
+				</carrierDefinedField>
+				<carrierDefinedField effectiveDate="2011-10-01" referenceId="B0129036915E249CE040C80A20176DF2">
+					<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+					<type>INDIVIDUAL_RATEUP_FACTOR</type>
+					<value>2.0</value>
+					<dataValueType>STRING</dataValueType>
+				</carrierDefinedField>
+				<carrierDefinedField effectiveDate="2011-10-01" referenceId="B0129036915C249CE040C80A20176DF2">
+					<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+					<type>UW_LEVEL</type>
+					<value>A1</value>
+					<dataValueType>STRING</dataValueType>
+				</carrierDefinedField>
+				<carrierDefinedField effectiveDate="2011-10-01" referenceId="B0129036915D249CE040C80A20176DF2">
+					<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+					<type>FINAL_RATEUP_FACTOR</type>
+					<value>1.1</value>
+					<dataValueType>STRING</dataValueType>
+				</carrierDefinedField>
+			</carrierDefinedFields>
+			<coverageDates>
+				<originalEffectiveDate>
+					<value>2011-10-01</value>
+				</originalEffectiveDate>
+				<effectiveDate>2011-10-01</effectiveDate>
+			</coverageDates>
+			<memberBenefitIdentification>
+				<memberBenefitId>11298T111305</memberBenefitId>
+				<altMemberBenefitId>11298T111305</altMemberBenefitId>
+			</memberBenefitIdentification>
+			<primaryCareProvider effectiveDate="2011-10-01">
+				<name>SomeName</name>
+				<code>SomeCode</code>
+				<networkId>123</networkId>
+			</primaryCareProvider>
+		</familyMember>
+		<familyMember referenceId="B00F798402069E93E040C80A20170A64">
+			<memberIdentificationReferenceId>B00F06DCA7796986E040C80A20176372</memberIdentificationReferenceId>
+			<relationship>SPOUSE</relationship>
+			<carrierDefinedFields>
+				<carrierDefinedField effectiveDate="2011-10-01" referenceId="B00F798402059E93E040C80A20170A64">
+					<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+					<displayName>MEDICARE_IND</displayName>
+					<type>MEDICARE_IND</type>
+					<value>No</value>
+					<dataValueType>STRING</dataValueType>
+				</carrierDefinedField>
+				<carrierDefinedField effectiveDate="2011-10-01" referenceId="B00F798402049E93E040C80A20170A64">
+					<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+					<displayName>INDIVIDUAL_RATEUP_FACTOR</displayName>
+					<type>INDIVIDUAL_RATEUP_FACTOR</type>
+					<value>1.4</value>
+					<dataValueType>STRING</dataValueType>
+				</carrierDefinedField>
+				<carrierDefinedField effectiveDate="2011-10-01" referenceId="B00F798402029E93E040C80A20170A64">
+					<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+					<displayName>UW_LEVEL</displayName>
+					<type>UW_LEVEL</type>
+					<value>A4</value>
+					<dataValueType>STRING</dataValueType>
+				</carrierDefinedField>
+				<carrierDefinedField effectiveDate="2011-10-01" referenceId="B00F798402039E93E040C80A20170A64">
+					<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+					<displayName>FINAL_RATEUP_FACTOR</displayName>
+					<type>FINAL_RATEUP_FACTOR</type>
+					<value>1.4</value>
+					<dataValueType>STRING</dataValueType>
+				</carrierDefinedField>
+			</carrierDefinedFields>
+			<coverageDates>
+				<originalEffectiveDate>
+					<value>2011-10-01</value>
+				</originalEffectiveDate>
+				<effectiveDate>2011-10-01</effectiveDate>
+			</coverageDates>
+			<memberBenefitIdentification>
+				<memberBenefitId>11298T111305</memberBenefitId>
+				<altMemberBenefitId>11298T111305</altMemberBenefitId>
+			</memberBenefitIdentification>
+			<primaryCareProvider effectiveDate="2011-10-01">
+				<name>SomeName</name>
+				<code>SomeCode</code>
+				<networkId>123</networkId>
+			</primaryCareProvider>
+			<applicantReferenceID>B00F06DCA7756986E040C80A20176372</applicantReferenceID>
+		</familyMember>
+		<familyMember referenceId="B0149092A7F1D9DEE040C80A201721F6">
+			<memberIdentificationReferenceId>B0149092A7F3D9DEE040C80A201721F6</memberIdentificationReferenceId>
+			<relationship>STUDENT</relationship>
+			<carrierDefinedFields>
+				<carrierDefinedField effectiveDate="2011-10-01" referenceId="B0149092A7EDD9DEE040C80A201721F6">
+					<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+					<type>MEDICARE_IND</type>
+					<value>No</value>
+					<dataValueType>STRING</dataValueType>
+				</carrierDefinedField>
+				<carrierDefinedField effectiveDate="2011-10-01" referenceId="B0149092A7F0D9DEE040C80A201721F6">
+					<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+					<type>INDIVIDUAL_RATEUP_FACTOR</type>
+					<value>2.1</value>
+					<dataValueType>STRING</dataValueType>
+				</carrierDefinedField>
+				<carrierDefinedField effectiveDate="2011-10-01" referenceId="B0149092A7EED9DEE040C80A201721F6">
+					<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+					<type>UW_LEVEL</type>
+					<value>A2</value>
+					<dataValueType>STRING</dataValueType>
+				</carrierDefinedField>
+				<carrierDefinedField effectiveDate="2011-10-01" referenceId="B0149092A7EFD9DEE040C80A201721F6">
+					<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+					<type>FINAL_RATEUP_FACTOR</type>
+					<value>1.2</value>
+					<dataValueType>STRING</dataValueType>
+				</carrierDefinedField>
+			</carrierDefinedFields>
+			<coverageDates>
+				<originalEffectiveDate>
+					<value>2011-10-01</value>
+				</originalEffectiveDate>
+				<effectiveDate>2011-10-01</effectiveDate>
+			</coverageDates>
+			<memberBenefitIdentification>
+				<memberBenefitId>11298T111305</memberBenefitId>
+				<altMemberBenefitId>11298T111305</altMemberBenefitId>
+			</memberBenefitIdentification>
+			<primaryCareProvider effectiveDate="2011-10-01">
+				<name>SomeName</name>
+				<code>SomeCode</code>
+				<networkId>123</networkId>
+			</primaryCareProvider>
+		</familyMember>
+	</memberBenefit>
+	<transaction referenceId="54031620">
+		<transactionObjectReferenceId>B00F06DCA7746986E040C80A20176372</transactionObjectReferenceId>
+		<memberTransactionTypes>BENEFIT_ORIGINAL_EFFECTIVE_DATE</memberTransactionTypes>
+	</transaction>
+</BillingSignificantEventInformation>

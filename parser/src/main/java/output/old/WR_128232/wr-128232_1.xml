@@ -1,0 +1,33 @@
+<eDirectFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="eDirect-EBS Trigger V0.9.xsd">
+<eDirectRecord>
+<HeaderInfo>
+<HeaderRecordType>000</HeaderRecordType>
+<HeaderTransactionID/>
+<HeaderTransactionType>EBSBATINTF</HeaderTransactionType>
+<HeaderDateTime/>
+<HeaderSenderID>BENEFIT_FOCUS_EDIRECT</HeaderSenderID>
+<HeaderRecieverID>AETNA_EDI_GATEWAY</HeaderRecieverID>
+<HeaderTestProdID/>
+</HeaderInfo>
+<FamilyTransactionRecord>
+<BillPackage>
+<MemberTransactionRecordType>FAM</MemberTransactionRecordType>
+<FamilyID>BF000007815</FamilyID>
+<IVLCustGroupID>IVL0BF102401</IVLCustGroupID>
+<IVLBillPackageNo>1001</IVLBillPackageNo>
+<PostedDTS>2011-10-25-11.12.03.711000</PostedDTS>
+<BillRecordType>BPM</BillRecordType>
+<CustomerFirstName>SubDep</CustomerFirstName>
+<CustomerLastName>Success</CustomerLastName>
+<BillEffectiveDate>
+        2</BillEffectiveDate>
+</BillPackage>
+</FamilyTransactionRecord>
+<TrailerInfo>
+<TrailerRecordtype>999</TrailerRecordtype>
+<FamilyTransactionCounter>0</FamilyTransactionCounter>
+<SpecialRequestCounter>0</SpecialRequestCounter>
+<TotalTransactionCounter>0</TotalTransactionCounter>
+</TrailerInfo>
+</eDirectRecord>
+</eDirectFile>

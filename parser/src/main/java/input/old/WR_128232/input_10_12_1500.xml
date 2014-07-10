@@ -1,0 +1,272 @@
+<BillingSignificantEvents>
+  <HeaderInfo>
+    <HeaderRecordType>000</HeaderRecordType>
+    <HeaderTransactionID>
+    f11717d7-42af-4518-a8ba-f1b3c17cf70d</HeaderTransactionID>
+    <HeaderTransactionType>EBSBATINTF</HeaderTransactionType>
+    <HeaderDateTime>2011-10-26:15:56:40:000</HeaderDateTime>
+    <HeaderSenderID>BENEFIT_FOCUS_EDIRECT</HeaderSenderID>
+    <HeaderRecieverID>AETNA_EDI_GATEWAY</HeaderRecieverID>
+    <HeaderTestProdID>T</HeaderTestProdID>
+  </HeaderInfo>
+  <Event>
+    <BillingSignificantEventInformation>
+      <memberIdentification originalEffectiveDate="2011-09-15"
+      referenceId="B02481386D50688DE040C80A20170A1B">
+        <BenefitfocusPersonId>
+        B02481386D50688DE040C80A20170A1B</BenefitfocusPersonId>
+        <personCarrierIdentification>
+          <carrierIdentification>
+            <BenefitfocusCarrierId>
+            5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+            <carrierShortName>Aetna</carrierShortName>
+          </carrierIdentification>
+          <memberId>11299T152356</memberId>
+        </personCarrierIdentification>
+        <sponsorId>
+          <BenefitfocusSponsorId>
+          AA4BF2233DF46D84E040C80A20171CD8</BenefitfocusSponsorId>
+          <sponsorName>Aetna IVL Test Group</sponsorName>
+        </sponsorId>
+      </memberIdentification>
+      <memberPersonalIdentification referenceId="B02481386D50688DE040C80A20170A1B">
+
+        <personName>
+          <lastName>Success</lastName>
+          <firstName>Wednesday</firstName>
+        </personName>
+        <address effectiveDate="2011-09-15">
+          <primaryStreet>3407 East 54th St</primaryStreet>
+          <city>Hendersonville</city>
+          <county>CountyNC</county>
+          <state>NC</state>
+          <country>US</country>
+          <postalCode>27006</postalCode>
+        </address>
+        <homePhoneNumber>234-123-5123</homePhoneNumber>
+        <emailAddress>wednesdaytest@bf.com</emailAddress>
+        <ssn>715-47-3524</ssn>
+        <gender effectiveDate="2011-09-15">MALE</gender>
+        <birthDate>1971-10-28</birthDate>
+        <personalIdentificationChangeEffectiveDate>
+        2011-10-25</personalIdentificationChangeEffectiveDate>
+      </memberPersonalIdentification>
+      <applicationId>BF000007945</applicationId>
+      <newApplicationId>BF000007945</newApplicationId>
+      <eventDate>2011-10-26T15:22:55.982</eventDate>
+      <memberBenefit referenceId="B02481386D4C688DE040C80A20170A1B">
+
+        <subscriber referenceId="B02481386D4B688DE040C80A20170A1B">
+          <memberIdentificationReferenceId>
+          B02481386D50688DE040C80A20170A1B</memberIdentificationReferenceId>
+          <memberBenefitIdentification>
+            <memberBenefitId>11299T152356</memberBenefitId>
+            <altMemberBenefitId>11299T152356</altMemberBenefitId>
+          </memberBenefitIdentification>
+        </subscriber>
+        <planName>Managed Choice Open Access 3500</planName>
+        <planID>1404417</planID>
+        <productType>PPO</productType>
+        <benefitType>MEDICAL</benefitType>
+        <planRate expirationDate="2011-10-14"
+        effectiveDate="2011-09-15">
+          <memberCost>
+            <currency>
+              <currencyType>USD</currencyType>
+              <amount>213.00</amount>
+            </currency>
+          </memberCost>
+          <rateGuaranteeExpirationDate>
+          2012-09-15</rateGuaranteeExpirationDate>
+          <basePremium>
+            <currency>
+              <currencyType>USD</currencyType>
+              <amount>0.00</amount>
+            </currency>
+          </basePremium>
+          <basePremiumFactor>0.0</basePremiumFactor>
+        </planRate>
+        <coverageIndicator>false</coverageIndicator>
+        <coverageLevelName>Subscriber</coverageLevelName>
+        <coverageLevelType>EmployeeOnly</coverageLevelType>
+        <coverageDates>
+          <originalEffectiveDate>
+            <value>2011-09-15</value>
+          </originalEffectiveDate>
+          <effectiveDate>2011-09-15</effectiveDate>
+          <expirationDate>2011-10-14</expirationDate>
+        </coverageDates>
+        <tobaccoUsage>false</tobaccoUsage>
+        <carrierDefinedFields>
+          <carrierDefinedField effectiveDate="2011-10-14"
+          referenceId="B03984B0CDD2B672E040C80A201711A4">
+            <BenefitfocusCarrierId>
+            5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+            <displayName>Cancellation Requested Date</displayName>
+            <type>CANCEL_REQ_DT</type>
+            <value>10/14/2011</value>
+            <dataValueType>STRING</dataValueType>
+          </carrierDefinedField>
+          <carrierDefinedField effectiveDate="2011-10-14"
+          referenceId="B03984B0CDD1B672E040C80A201711A4">
+            <BenefitfocusCarrierId>
+            5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+            <displayName>Cancellation Reason</displayName>
+            <type>CANCEL_REASON</type>
+            <value>Selected Another Carrier</value>
+            <dataValueType>STRING</dataValueType>
+          </carrierDefinedField>
+          <carrierDefinedField effectiveDate="2011-09-15"
+          referenceId="B02481386D7E688DE040C80A20170A1B">
+            <BenefitfocusCarrierId>
+            5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+            <displayName>MEDICARE_IND</displayName>
+            <type>MEDICARE_IND</type>
+            <value>No</value>
+            <dataValueType>STRING</dataValueType>
+          </carrierDefinedField>
+          <carrierDefinedField effectiveDate="2011-09-15"
+          referenceId="B02481386D4A688DE040C80A20170A1B">
+            <BenefitfocusCarrierId>
+            5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+            <displayName>CONTROL_NBR</displayName>
+            <type>CONTROL_NBR</type>
+            <value>888184</value>
+            <dataValueType>STRING</dataValueType>
+          </carrierDefinedField>
+          <carrierDefinedField effectiveDate="2011-09-15"
+          referenceId="B02481386D47688DE040C80A20170A1B">
+            <BenefitfocusCarrierId>
+            5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+            <displayName>HIPAA_IND</displayName>
+            <type>HIPAA_IND</type>
+            <value>FALSE</value>
+            <dataValueType>BOOLEAN</dataValueType>
+          </carrierDefinedField>
+          <carrierDefinedField effectiveDate="2011-09-15"
+          referenceId="B02481386D7C688DE040C80A20170A1B">
+            <BenefitfocusCarrierId>
+            5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+            <displayName>INDIVIDUAL_RATEUP_FACTOR</displayName>
+            <type>INDIVIDUAL_RATEUP_FACTOR</type>
+            <value>1.9</value>
+            <dataValueType>STRING</dataValueType>
+          </carrierDefinedField>
+          <carrierDefinedField effectiveDate="2011-09-15"
+          referenceId="B02481386D45688DE040C80A20170A1B">
+            <BenefitfocusCarrierId>
+            5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+            <displayName>REDUCED_COMP_INDICATOR</displayName>
+            <type>REDUCED_COMP_INDICATOR</type>
+            <value>FALSE</value>
+            <dataValueType>BOOLEAN</dataValueType>
+          </carrierDefinedField>
+          <carrierDefinedField effectiveDate="2011-09-15"
+          referenceId="B02481386D7D688DE040C80A20170A1B">
+            <BenefitfocusCarrierId>
+            5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+            <displayName>UW_LEVEL</displayName>
+            <type>UW_LEVEL</type>
+            <value>A1</value>
+            <dataValueType>STRING</dataValueType>
+          </carrierDefinedField>
+          <carrierDefinedField effectiveDate="2011-09-15"
+          referenceId="B02481386D48688DE040C80A20170A1B">
+            <BenefitfocusCarrierId>
+            5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+            <displayName>PACKAGE_ID</displayName>
+            <type>PACKAGE_ID</type>
+            <value>10</value>
+            <dataValueType>STRING</dataValueType>
+          </carrierDefinedField>
+          <carrierDefinedField effectiveDate="2011-09-15"
+          referenceId="B02481386D49688DE040C80A20170A1B">
+            <BenefitfocusCarrierId>
+            5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+            <displayName>ACCOUNT_NBR</displayName>
+            <type>ACCOUNT_NBR</type>
+            <value>1</value>
+            <dataValueType>STRING</dataValueType>
+          </carrierDefinedField>
+          <carrierDefinedField effectiveDate="2011-09-15"
+          referenceId="B02481386D7F688DE040C80A20170A1B">
+            <BenefitfocusCarrierId>
+            5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+            <displayName>FINAL_RATEUP_FACTOR</displayName>
+            <type>FINAL_RATEUP_FACTOR</type>
+            <value>1.1</value>
+            <dataValueType>STRING</dataValueType>
+          </carrierDefinedField>
+          <carrierDefinedField effectiveDate="2011-09-15"
+          referenceId="B02481386D46688DE040C80A20170A1B">
+            <BenefitfocusCarrierId>
+            5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+            <displayName>GA_SUPPRESS_INDICATOR</displayName>
+            <type>GA_SUPPRESS_INDICATOR</type>
+            <value>FALSE</value>
+            <dataValueType>BOOLEAN</dataValueType>
+          </carrierDefinedField>
+        </carrierDefinedFields>
+        <primaryCareProvider effectiveDate="2011-09-15">
+          <name>SomeName</name>
+          <code>SomeCode</code>
+          <networkId>123</networkId>
+        </primaryCareProvider>
+        <initialPayment>
+          <Payment>
+            <PaymentAmount>1</PaymentAmount>
+            <HoldPaymentFlag>false</HoldPaymentFlag>
+            <CreditCard>
+              <CardType>VISA</CardType>
+              <CardNumber />
+              <ExpirationMonth>01</ExpirationMonth>
+              <ExpirationYear>2020</ExpirationYear>
+              <NameOnAccount />
+              <address>
+                <primaryStreet />
+                <city />
+                <state />
+              </address>
+            </CreditCard>
+          </Payment>
+        </initialPayment>
+        <carrierBillingInformation originalEffectiveDate="2011-09-15">
+
+          <carrierIdentification>
+            <BenefitfocusCarrierId>
+            5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+            <carrierShortName>Aetna</carrierShortName>
+          </carrierIdentification>
+          <responsibleParty effectiveDate="2011-09-15">
+            <personName>
+              <lastName>Success</lastName>
+              <firstName>Wednesday</firstName>
+            </personName>
+            <address>
+              <primaryStreet>3407 East 54th St</primaryStreet>
+              <city>Hendersonville</city>
+              <state>NC</state>
+              <country>US</country>
+              <postalCode>27006</postalCode>
+            </address>
+          </responsibleParty>
+          <billingUnitId>9001</billingUnitId>
+          <billingGroupId>IVL0BF102601</billingGroupId>
+          <billingDay>15</billingDay>
+        </carrierBillingInformation>
+      </memberBenefit>
+      <transaction referenceId="77058164">
+        <transactionObjectReferenceId>
+        B02481386D4B688DE040C80A20170A1B</transactionObjectReferenceId>
+        <memberTransactionTypes>
+        CANCEL_SUBSCRIBER</memberTransactionTypes>
+      </transaction>
+    </BillingSignificantEventInformation>
+  </Event>
+  <TrailerRecord>
+    <TrailerRecordtype>999</TrailerRecordtype>
+    <FamilyTransactionCounter />
+    <SpecialRequestCounter />
+    <TotalTransactionCounter />
+  </TrailerRecord>
+</BillingSignificantEvents>

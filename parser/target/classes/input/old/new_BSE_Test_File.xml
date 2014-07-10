@@ -1,0 +1,308 @@
+<?xml version="1.0"?>
+<BillingSignificantEvents>
+	<HeaderInfo>
+		<HeaderRecordType>000</HeaderRecordType>
+		<HeaderTransactionID>5ad8309d-fd10-4674-8e31-8ba8671307ff</HeaderTransactionID>
+		<HeaderTransactionType>EBSBATINTF</HeaderTransactionType>
+		<HeaderDateTime>2011-10-14:10:42:17:860</HeaderDateTime>
+		<HeaderSenderID>BENEFIT_FOCUS_EDIRECT</HeaderSenderID>
+		<HeaderRecieverID>AETNA_EDI_GATEWAY</HeaderRecieverID>
+		<HeaderTestProdID>T</HeaderTestProdID>
+	</HeaderInfo>
+	<Event>
+		<BillingSignificantEventInformation>
+			<memberIdentification referenceId="AF43FF7C35668038E040C80A20173981">
+				<BenefitfocusPersonId>AF43FF7C35668038E040C80A20173981</BenefitfocusPersonId>
+				<personCarrierIdentification>
+					<carrierIdentification>
+						<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+						<carrierShortName>Aetna</carrierShortName>
+					</carrierIdentification>
+					<memberId>343307166</memberId>
+				</personCarrierIdentification>
+				<sponsorId>
+					<BenefitfocusSponsorId>AA4BF2233DF46D84E040C80A20171CD8</BenefitfocusSponsorId>
+					<sponsorName>Aetna IVL Test Group</sponsorName>
+				</sponsorId>
+			</memberIdentification>
+			<memberPersonalIdentification referenceId="AF43FF7C35668038E040C80A20173981">
+				<personName>
+					<lastName>Edwards</lastName>
+					<firstName>William</firstName>
+				</personName>
+				<address>
+					<primaryStreet>20386 Oak Lane</primaryStreet>
+					<city>Terrance</city>
+					<county>CountyDel</county>
+					<state>DE</state>
+					<country>US</country>
+					<postalCode>19701</postalCode>
+				</address>
+				<homePhoneNumber>234-123-4675</homePhoneNumber>
+				<emailAddress>williamtest@bf.com</emailAddress>
+				<ssn>221-31-2346</ssn>
+				<gender>MALE</gender>
+				<birthDate>1980-01-01</birthDate>
+				<personalIdentificationChangeEffectiveDate>2011-10-14</personalIdentificationChangeEffectiveDate>
+			</memberPersonalIdentification>
+			<applicationId>BF000007349</applicationId>
+			<newApplicationId>BF000007349</newApplicationId>
+			<eventDate>2011-10-14T10:39:03.235</eventDate>
+			<familyMemberInformation referenceId="AF43FF7C35658038E040C80A20173981">
+				<memberIdentification referenceId="AF43FF7C35658038E040C80A20173981">
+					<BenefitfocusPersonId>AF43FF7C35658038E040C80A20173981</BenefitfocusPersonId>
+					<personCarrierIdentification>
+						<carrierIdentification>
+							<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+							<carrierShortName>Aetna</carrierShortName>
+						</carrierIdentification>
+						<memberId>9884057789986</memberId>
+					</personCarrierIdentification>
+					<sponsorId>
+						<BenefitfocusSponsorId>AA4BF2233DF46D84E040C80A20171CD8</BenefitfocusSponsorId>
+						<sponsorName>Aetna IVL Test Group</sponsorName>
+					</sponsorId>
+				</memberIdentification>
+				<memberPersonalIdentification referenceId="AF43FF7C35658038E040C80A20173981">
+					<personName>
+						<lastName>Edwards</lastName>
+						<firstName>Teresa</firstName>
+					</personName>
+					<address>
+						<primaryStreet>20386 Oak Lane</primaryStreet>
+						<city>Terrance</city>
+						<county>CountyDel</county>
+						<state>DE</state>
+						<country>US</country>
+						<postalCode>19701</postalCode>
+					</address>
+					<ssn>134-18-3274</ssn>
+					<gender>FEMALE</gender>
+					<birthDate>1987-07-02</birthDate>
+					<personalIdentificationChangeEffectiveDate>2011-10-14</personalIdentificationChangeEffectiveDate>
+				</memberPersonalIdentification>
+			</familyMemberInformation>
+			<memberBenefit referenceId="AF443787281D69DEE040C80A20174E93">
+				<subscriber>
+					<memberIdentificationReferenceId>AF43FF7C35668038E040C80A20173981</memberIdentificationReferenceId>
+				</subscriber>
+				<planName>First Dollar PPO 35</planName>
+				<planID>1403326</planID>
+				<productType>PPO</productType>
+				<benefitType>MEDICAL</benefitType>
+				<planRate>
+					<memberCost>
+						<currency>
+							<currencyType>USD</currencyType>
+							<amount>911.00</amount>
+						</currency>
+					</memberCost>
+					<rateGuaranteeExpirationdate>2012-10-01</rateGuaranteeExpirationdate>
+					<effectiveDate>2011-10-01</effectiveDate>
+				</planRate>
+				<coverageIndicator>true</coverageIndicator>
+				<coverageLevelName>Subscriber + Spouse</coverageLevelName>
+				<coverageLevelType>EmployeeAndSpouse</coverageLevelType>
+				<coverageDates>
+					<originalEffectiveDate>2011-10-01</originalEffectiveDate>
+					<effectiveDate>2011-10-01</effectiveDate>
+				</coverageDates>
+				<tobaccoUsage>false</tobaccoUsage>
+				<carrierDefinedFields>
+					<carrierDefinedField benefitfocusId="AF443787281B69DEE040C80A20174E93">
+						<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+						<displayName>CONTROL_NBR</displayName>
+						<type>CONTROL_NBR</type>
+						<value>888167</value>
+						<dataValueType>STRING</dataValueType>
+						<effectiveDate>2011-10-01</effectiveDate>
+					</carrierDefinedField>
+					<carrierDefinedField benefitfocusId="AF443787281469DEE040C80A20174E93">
+						<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+						<displayName>MEDICARE_IND</displayName>
+						<type>MEDICARE_IND</type>
+						<value>No</value>
+						<dataValueType>STRING</dataValueType>
+						<effectiveDate>2011-10-01</effectiveDate>
+					</carrierDefinedField>
+					<carrierDefinedField benefitfocusId="AF443787281869DEE040C80A20174E93">
+						<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+						<displayName>HIPAA_IND</displayName>
+						<type>HIPAA_IND</type>
+						<value>FALSE</value>
+						<dataValueType>BOOLEAN</dataValueType>
+						<effectiveDate>2011-10-01</effectiveDate>
+					</carrierDefinedField>
+					<carrierDefinedField benefitfocusId="AF443787281269DEE040C80A20174E93">
+						<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+						<displayName>INDIVIDUAL_RATEUP_FACTOR</displayName>
+						<type>INDIVIDUAL_RATEUP_FACTOR</type>
+						<value>2.6</value>
+						<dataValueType>STRING</dataValueType>
+						<effectiveDate>2011-10-01</effectiveDate>
+					</carrierDefinedField>
+					<carrierDefinedField benefitfocusId="AF443787281669DEE040C80A20174E93">
+						<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+						<displayName>REDUCED_COMP_INDICATOR</displayName>
+						<type>REDUCED_COMP_INDICATOR</type>
+						<value>FALSE</value>
+						<dataValueType>BOOLEAN</dataValueType>
+						<effectiveDate>2011-10-01</effectiveDate>
+					</carrierDefinedField>
+					<carrierDefinedField benefitfocusId="AF443787281369DEE040C80A20174E93">
+						<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+						<displayName>UW_LEVEL</displayName>
+						<type>UW_LEVEL</type>
+						<value>A7</value>
+						<dataValueType>STRING</dataValueType>
+						<effectiveDate>2011-10-01</effectiveDate>
+					</carrierDefinedField>
+					<carrierDefinedField benefitfocusId="AF443787281A69DEE040C80A20174E93">
+						<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+						<displayName>ACCOUNT_NBR</displayName>
+						<type>ACCOUNT_NBR</type>
+						<value>1</value>
+						<dataValueType>STRING</dataValueType>
+						<effectiveDate>2011-10-01</effectiveDate>
+					</carrierDefinedField>
+					<carrierDefinedField benefitfocusId="AF443787281969DEE040C80A20174E93">
+						<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+						<displayName>PACKAGE_ID</displayName>
+						<type>PACKAGE_ID</type>
+						<value>58</value>
+						<dataValueType>STRING</dataValueType>
+						<effectiveDate>2011-10-01</effectiveDate>
+					</carrierDefinedField>
+					<carrierDefinedField benefitfocusId="AF443787281569DEE040C80A20174E93">
+						<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+						<displayName>FINAL_RATEUP_FACTOR</displayName>
+						<type>FINAL_RATEUP_FACTOR</type>
+						<value>1.7</value>
+						<dataValueType>STRING</dataValueType>
+						<effectiveDate>2011-10-01</effectiveDate>
+					</carrierDefinedField>
+					<carrierDefinedField benefitfocusId="AF443787281769DEE040C80A20174E93">
+						<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+						<displayName>GA_SUPPRESS_INDICATOR</displayName>
+						<type>GA_SUPPRESS_INDICATOR</type>
+						<value>FALSE</value>
+						<dataValueType>BOOLEAN</dataValueType>
+						<effectiveDate>2011-10-01</effectiveDate>
+					</carrierDefinedField>
+				</carrierDefinedFields>
+				<primaryCareProvider>
+					<code>333222</code>
+				</primaryCareProvider>
+				<initialPayment>
+					<Payment>
+						<PaymentAmount>1</PaymentAmount>
+						<HoldPaymentFlag>false</HoldPaymentFlag>
+						<CreditCard>
+							<CardType>VISA</CardType>
+							<CardNumber>1</CardNumber>
+							<ExpirationMonth>01</ExpirationMonth>
+							<ExpirationYear>2020</ExpirationYear>
+							<NameOnAccount>N/A</NameOnAccount>
+							<address>
+								<primaryStreet>N/A</primaryStreet>
+								<city>N/A</city>
+								<state>AK</state>
+							</address>
+						</CreditCard>
+					</Payment>
+				</initialPayment>
+				<recurringPayment>
+					<Payment>
+						<PaymentAmount>1</PaymentAmount>
+						<HoldPaymentFlag>false</HoldPaymentFlag>
+						<CreditCard>
+							<CardType>VISA</CardType>
+							<CardNumber>1</CardNumber>
+							<ExpirationMonth>01</ExpirationMonth>
+							<ExpirationYear>2020</ExpirationYear>
+							<NameOnAccount>N/A</NameOnAccount>
+							<address>
+								<primaryStreet>N/A</primaryStreet>
+								<city>N/A</city>
+								<state>AK</state>
+							</address>
+						</CreditCard>
+					</Payment>
+				</recurringPayment>
+				<carrierBillingInformation>
+					<carrierIdentification>
+						<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+						<carrierShortName>Aetna</carrierShortName>
+					</carrierIdentification>
+					<responsibleParty>
+						<personName>
+							<lastName>Edwards</lastName>
+							<firstName>William</firstName>
+						</personName>
+						<address>
+							<primaryStreet>20386 Oak Lane</primaryStreet>
+							<city>Terrance</city>
+							<state>DE</state>
+							<country>US</country>
+							<postalCode>19701</postalCode>
+						</address>
+					</responsibleParty>
+					<billingGroupId>BF000007349</billingGroupId>
+					<billingDay>1</billingDay>
+				</carrierBillingInformation>
+				<familyMember>
+					<memberIdentificationReferenceId>AF43FF7C35658038E040C80A20173981</memberIdentificationReferenceId>
+					<relationship>SPOUSE</relationship>
+					<coverageDates>
+						<originalEffectiveDate>2011-10-01</originalEffectiveDate>
+						<effectiveDate>2011-10-01</effectiveDate>
+					</coverageDates>
+					<carrierDefinedFields>
+						<carrierDefinedField benefitfocusId="AF443787281069DEE040C80A20174E93">
+							<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+							<displayName>MEDICARE_IND</displayName>
+							<type>MEDICARE_IND</type>
+							<value>No</value>
+							<dataValueType>STRING</dataValueType>
+							<effectiveDate>2011-10-01</effectiveDate>
+						</carrierDefinedField>
+						<carrierDefinedField benefitfocusId="AF443787280F69DEE040C80A20174E93">
+							<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+							<displayName>INDIVIDUAL_RATEUP_FACTOR</displayName>
+							<type>INDIVIDUAL_RATEUP_FACTOR</type>
+							<value>2.4</value>
+							<dataValueType>STRING</dataValueType>
+							<effectiveDate>2011-10-01</effectiveDate>
+						</carrierDefinedField>
+						<carrierDefinedField benefitfocusId="AF443787280D69DEE040C80A20174E93">
+							<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+							<displayName>UW_LEVEL</displayName>
+							<type>UW_LEVEL</type>
+							<value>A9</value>
+							<dataValueType>STRING</dataValueType>
+							<effectiveDate>2011-10-01</effectiveDate>
+						</carrierDefinedField>
+						<carrierDefinedField benefitfocusId="AF443787280E69DEE040C80A20174E93">
+							<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+							<displayName>FINAL_RATEUP_FACTOR</displayName>
+							<type>FINAL_RATEUP_FACTOR</type>
+							<value>1.9</value>
+							<dataValueType>STRING</dataValueType>
+							<effectiveDate>2011-10-01</effectiveDate>
+						</carrierDefinedField>
+					</carrierDefinedFields>
+				</familyMember>
+			</memberBenefit>
+			<transaction referenceId="67654098">
+				<transactionObjectReferenceId>AF43FF7C35668038E040C80A20173981</transactionObjectReferenceId>
+				<memberTransactionTypes>ADD_SUBSCRIBER</memberTransactionTypes>
+			</transaction>
+		</BillingSignificantEventInformation>
+	</Event>
+	<TrailerRecord>
+		<TrailerRecordtype>999</TrailerRecordtype>
+		<FamilyTransactionCounter/>
+		<SpecialRequestCounter/>
+		<TotalTransactionCounter/>
+	</TrailerRecord>
+</BillingSignificantEvents>

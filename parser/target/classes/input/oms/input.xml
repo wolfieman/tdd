@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<ns5:notificationRequestType xmlns:ns2="http://schemas.benefitfocus.com/common/general/2010/1/1/personName" xmlns:ns4="http://schemas.benefitfocus.com/common/general/2010/1/1/currency" xmlns:ns3="http://schemas.benefitfocus.com/common/general/2010/2/1/address" xmlns:ns9="http://schemas.benefitfocus.com/common/general/2010/1/1/phoneNumber" xmlns:ns5="http://schemas.benefitfocus.com/events/general/2011/1/3/notificationRequest" xmlns:ns6="http://schemas.benefitfocus.com/common/general/2010/2/1/carrierDefinedFields" xmlns:ns10="http://schemas.benefitfocus.com/common/general/2010/1/1/emailAddress" xmlns:ns7="http://schemas.benefitfocus.com/member/general/2010/1/1/memberBenefitIdentification" xmlns:ns11="http://schemas.benefitfocus.com/agent/general/2010/3/1/agentInformation" xmlns:ns8="http://schemas.benefitfocus.com/common/general/2010/1/1/carrierIdentification">
+	<ns5:baseEvent>PAYMENT_REJECT</ns5:baseEvent>
+	<ns5:subEvent>EFT_REJECT</ns5:subEvent>
+	<ns5:jurisdiction>TN</ns5:jurisdiction>
+	<ns5:tenant>5DE53F0C768A393DE040640A6E11267C</ns5:tenant>
+	<ns5:generateDate>2012-02-06T05:18:34.961</ns5:generateDate>
+	<ns5:printDate>2012-02-06</ns5:printDate>
+	<ns5:billingGroupId>BF0011156</ns5:billingGroupId>
+	<ns5:channel>PRINT</ns5:channel>
+	<ns5:notificationName>EFT Rejection Letter</ns5:notificationName>
+	<ns5:templateId>6EC</ns5:templateId>
+	<ns5:transId>f893cc4a3b3f1328567574131</ns5:transId>
+	<ns5:asOfDate>2012-02-06</ns5:asOfDate>
+	<ns5:BenefitfocusPersonId>B815C4DCAC13501AE040C80A20174458</ns5:BenefitfocusPersonId>
+	<ns5:transDetails>
+		<type>EFT_REJECT_MESSAGE</type>
+		<value>REVERSAL</value>
+	</ns5:transDetails>
+	<ns5:suppressRetrieval>false</ns5:suppressRetrieval>
+	<ns5:status>PENDING</ns5:status>
+	<ns5:enrollmentInfo>
+		<ns5:memberPersonalIdentification referenceId="">
+			<ns2:personName>
+				<firstName>Venkat</firstName>
+			</ns2:personName>
+			<ns3:address>
+				<ns3:primaryStreet>5925 TNHB Richard Street</ns3:primaryStreet>
+				<ns3:city>Adams</ns3:city>
+				<ns3:state>TN</ns3:state>
+				<ns3:postalCode>37010</ns3:postalCode>
+			</ns3:address>
+		</ns5:memberPersonalIdentification>
+		<ns5:billPackage>
+			<ns2:personName>
+				<lastName>Venkat</lastName>
+				<firstName>Adam</firstName>
+			</ns2:personName>
+		</ns5:billPackage>
+	</ns5:enrollmentInfo>
+</ns5:notificationRequestType>

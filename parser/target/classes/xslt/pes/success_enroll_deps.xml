@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/">
+	<S:Body>
+		<enrollMemberRequest xmlns:ns10="http://schemas.benefitfocus.com/common/general/2010/1/1/personName" xmlns:ns11="http://schemas.benefitfocus.com/common/general/2010/2/1/address" xmlns:ns12="http://schemas.benefitfocus.com/billing/general/2010/2/1/carrierBillingInformation" xmlns:ns13="http://schemas.benefitfocus.com/common/general/2010/1/1/phoneNumber" xmlns:ns14="http://schemas.benefitfocus.com/common/general/2010/1/1/emailAddress" xmlns:ns15="http://schemas.benefitfocus.com/agent/general/2010/3/1/agentInformation" xmlns:ns16="http://schemas.benefitfocus.com/agent/general/2010/3/1/agencyInformation" xmlns:ns17="http://schemas.benefitfocus.com/common/general/2010/1/1/relationship" xmlns:ns18="http://schemas.benefitfocus.com/member/general/2010/2/1/memberBenefit" xmlns:ns19="http://schemas.benefitfocus.com/common/general/2010/1/1/metadata" xmlns:ns2="http://schemas.benefitfocus.com/common/general/2010/1/1/platformServiceResult" xmlns:ns20="http://schemas.benefitfocus.com/common/general/2010/1/1/message" xmlns:ns21="http://schemas.benefitfocus.com/common/general/2010/1/1/task" xmlns:ns22="http://schemas.benefitfocus.com/member/general/2010/2/1/memberIdentification" xmlns:ns23="http://schemas.benefitfocus.com/common/general/2010/1/1/ssn" xmlns:ns24="http://schemas.benefitfocus.com/common/general/2010/2/1/gender" xmlns:ns25="http://schemas.benefitfocus.com/common/general/2010/1/1/maritalStatus" xmlns:ns26="http://schemas.benefitfocus.com/common/general/2010/1/1/ethnicity" xmlns:ns27="http://schemas.benefitfocus.com/member/general/2010/2/1/memberPersonalIdentification" xmlns:ns28="http://schemas.benefitfocus.com/member/general/2010/2/1/familyInformation" xmlns:ns29="http://schemas.benefitfocus.com/member/general/2010/2/1/application" xmlns:ns3="http://schemas.benefitfocus.com/billing/general/2010/1/1/paymentRequest" xmlns:ns30="http://schemas.benefitfocus.com/common/general/2010/1/1/contactInformation" xmlns:ns31="http://schemas.benefitfocus.com/member/general/2010/2/1/organization" xmlns:ns32="http://schemas.benefitfocus.com/member/general/2010/2/1/memberInformation" xmlns:ns33="http://schemas.benefitfocus.com/member/general/2010/1/1/memberIdentification" xmlns:ns34="http://schemas.benefitfocus.com/common/general/2010/1/1/coverageLevelType" xmlns:ns35="http://schemas.benefitfocus.com/partner/enrollment/general/2010/1/1/" xmlns:ns36="http://schemas.benefitfocus.com/common/general/2010/1/1/sponsorIdentification" xmlns:ns37="http://schemas.benefitfocus.com/common/general/2010/2/1/sponsorIdentification" xmlns:ns4="http://schemas.benefitfocus.com/common/general/2010/1/1/paymentFrequency" xmlns:ns5="http://schemas.benefitfocus.com/common/general/2010/1/1/address" xmlns:ns6="http://schemas.benefitfocus.com/common/general/2010/1/1/currency" xmlns:ns7="http://schemas.benefitfocus.com/member/general/2010/1/1/memberBenefitIdentification" xmlns:ns8="http://schemas.benefitfocus.com/common/general/2010/2/1/carrierDefinedFields" xmlns:ns9="http://schemas.benefitfocus.com/common/general/2010/1/1/carrierIdentification">
+			<transmissionId>fe908b4c-7ab5-4e09-bf20-1e24e0f5055c</transmissionId>
+			<transactionInformation referenceId="B8666B3CFEDA10C1E040C80A1F173D4C">
+				<transactionDate>2012-01-01T00:00:00.000</transactionDate>
+				<transactionType>NEW_ENROLLMENT</transactionType>
+				<elementReferenceId>B865BEB1E366D388E040C80A1F1778B8</elementReferenceId>
+			</transactionInformation>
+			<memberInformation>
+				<memberIdentification originalEffectiveDate="2012-01-01" referenceId="B865BEB1E36ED388E040C80A1F1778B8">
+					<BenefitfocusPersonId>B865BEB1E36ED388E040C80A1F1778B8</BenefitfocusPersonId>
+					<personCarrierIdentification>
+						<carrierIdentification>
+							<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+							<carrierShortName>Aetna</carrierShortName>
+						</carrierIdentification>
+					</personCarrierIdentification>
+					<sponsorId>
+						<BenefitfocusSponsorId>A3F28062082AA9FBE040C80A1F1752D8</BenefitfocusSponsorId>
+						<sponsorName>AETNA IVL TEST GROUP</sponsorName>
+					</sponsorId>
+				</memberIdentification>
+				<memberPersonalIdentification referenceId="B865BEB1E36ED388E040C80A1F1778B8">
+					<personName>
+						<lastName>Heffernan</lastName>
+						<firstName>Doug</firstName>
+					</personName>
+					<address effectiveDate="2012-01-01">
+						<primaryStreet>7680 Poplar Avenue</primaryStreet>
+						<city>Germantown</city>
+						<county>Shelby</county>
+						<state>TN</state>
+						<country>US</country>
+						<postalCode>38183</postalCode>
+					</address>
+					<homePhoneNumber>901-755-7011</homePhoneNumber>
+					<emailAddress>doug@heffernan.com</emailAddress>
+					<ssn>222-43-8181</ssn>
+					<gender effectiveDate="2012-01-01">MALE</gender>
+					<birthDate>1965-02-09</birthDate>
+					<personalIdentificationChangeEffectiveDate>2012-02-07</personalIdentificationChangeEffectiveDate>
+				</memberPersonalIdentification>
+				<familyInformation>
+					<familyMemberInformation referenceId="B865BEB1E36DD388E040C80A1F1778B8">
+						<memberIdentification originalEffectiveDate="2012-01-01" referenceId="B865BEB1E36DD388E040C80A1F1778B8">
+							<BenefitfocusPersonId>B865BEB1E36DD388E040C80A1F1778B8</BenefitfocusPersonId>
+							<personCarrierIdentification>
+								<carrierIdentification>
+									<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+									<carrierShortName>Aetna</carrierShortName>
+								</carrierIdentification>
+							</personCarrierIdentification>
+							<sponsorId>
+								<BenefitfocusSponsorId>A3F28062082AA9FBE040C80A1F1752D8</BenefitfocusSponsorId>
+								<sponsorName>AETNA IVL TEST GROUP</sponsorName>
+							</sponsorId>
+						</memberIdentification>
+						<memberPersonalIdentification referenceId="B865BEB1E36DD388E040C80A1F1778B8">
+							<personName>
+								<lastName>Heffernan</lastName>
+								<firstName>Carrie</firstName>
+							</personName>
+							<address effectiveDate="2012-01-01">
+								<primaryStreet>7680 Poplar Avenue</primaryStreet>
+								<city>Germantown</city>
+								<county>Shelby</county>
+								<state>TN</state>
+								<country>US</country>
+								<postalCode>38183</postalCode>
+							</address>
+							<homePhoneNumber>901-755-7011</homePhoneNumber>
+							<ssn>222-44-6161</ssn>
+							<gender effectiveDate="2012-01-01">FEMALE</gender>
+							<birthDate>1970-01-15</birthDate>
+							<personalIdentificationChangeEffectiveDate>2012-02-07</personalIdentificationChangeEffectiveDate>
+						</memberPersonalIdentification>
+					</familyMemberInformation>
+					<familyMemberInformation referenceId="B865BEB1E36CD388E040C80A1F1778B8">
+						<memberIdentification originalEffectiveDate="2012-01-01" referenceId="B865BEB1E36CD388E040C80A1F1778B8">
+							<BenefitfocusPersonId>B865BEB1E36CD388E040C80A1F1778B8</BenefitfocusPersonId>
+							<personCarrierIdentification>
+								<carrierIdentification>
+									<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+									<carrierShortName>Aetna</carrierShortName>
+								</carrierIdentification>
+							</personCarrierIdentification>
+							<sponsorId>
+								<BenefitfocusSponsorId>A3F28062082AA9FBE040C80A1F1752D8</BenefitfocusSponsorId>
+								<sponsorName>AETNA IVL TEST GROUP</sponsorName>
+							</sponsorId>
+						</memberIdentification>
+						<memberPersonalIdentification referenceId="B865BEB1E36CD388E040C80A1F1778B8">
+							<personName>
+								<lastName>Heffernan</lastName>
+								<firstName>Ming-Mei</firstName>
+							</personName>
+							<address effectiveDate="2012-01-01">
+								<primaryStreet>7680 Poplar Avenue</primaryStreet>
+								<city>Germantown</city>
+								<county>Shelby</county>
+								<state>TN</state>
+								<country>US</country>
+								<postalCode>38183</postalCode>
+							</address>
+							<homePhoneNumber>901-755-7011</homePhoneNumber>
+							<ssn>222-44-5353</ssn>
+							<gender effectiveDate="2012-01-01">FEMALE</gender>
+							<birthDate>2000-11-07</birthDate>
+							<personalIdentificationChangeEffectiveDate>2012-02-07</personalIdentificationChangeEffectiveDate>
+						</memberPersonalIdentification>
+					</familyMemberInformation>
+				</familyInformation>
+				<application effectiveDate="2012-01-01">
+					<applicationId>BF0005886</applicationId>
+					<receivedDate>2012-02-07</receivedDate>
+					<signatureDate>2012-01-01</signatureDate>
+					<applicant>
+						<memberIdentificationReferenceId>B865BEB1E36CD388E040C80A1F1778B8</memberIdentificationReferenceId>
+						<applicantId>BF000588601</applicantId>
+					</applicant>
+					<applicant>
+						<memberIdentificationReferenceId>B865BEB1E36DD388E040C80A1F1778B8</memberIdentificationReferenceId>
+						<applicantId>BF0005886SP</applicantId>
+					</applicant>
+					<applicant>
+						<memberIdentificationReferenceId>B865BEB1E36ED388E040C80A1F1778B8</memberIdentificationReferenceId>
+						<applicantId>BF0005886APP</applicantId>
+					</applicant>
+					<carrierDefinedFields>
+						<carrierDefinedField effectiveDate="2012-01-01">
+							<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+							<displayName>APPLICATION_SOURCE</displayName>
+							<type>APPLICATION_SOURCE</type>
+							<value>MANUAL</value>
+							<dataValueType>STRING</dataValueType>
+						</carrierDefinedField>
+					</carrierDefinedFields>
+				</application>
+				<memberBenefit referenceId="B865BEB1E366D388E040C80A1F1778B8">
+					<subscriber referenceId="B865BEB1E365D388E040C80A1F1778B8">
+						<memberIdentificationReferenceId>B865BEB1E36ED388E040C80A1F1778B8</memberIdentificationReferenceId>
+						<memberBenefitIdentification/>
+					</subscriber>
+					<planName>PPO 10000</planName>
+					<planID>1403728</planID>
+					<productType>PPO</productType>
+					<benefitType>MEDICAL</benefitType>
+					<planRate effectiveDate="2012-01-01">
+						<memberCost>
+							<currency>
+								<currencyType>USD</currencyType>
+								<amount>389.00</amount>
+							</currency>
+						</memberCost>
+						<rateGuaranteeExpirationDate>2013-01-01</rateGuaranteeExpirationDate>
+					</planRate>
+					<coverageIndicator>true</coverageIndicator>
+					<coverageLevelName>Subscriber + Family</coverageLevelName>
+					<coverageLevelType>Family</coverageLevelType>
+					<coverageDates>
+						<originalEffectiveDate>
+							<value>2012-01-01</value>
+						</originalEffectiveDate>
+						<effectiveDate>2012-01-01</effectiveDate>
+					</coverageDates>
+					<tobaccoUsage>false</tobaccoUsage>
+					<carrierDefinedFields>
+						<carrierDefinedField effectiveDate="2012-01-01">
+							<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+							<displayName>HIPAA_IND</displayName>
+							<type>HIPAA_IND</type>
+							<value>FALSE</value>
+							<dataValueType>BOOLEAN</dataValueType>
+						</carrierDefinedField>
+						<carrierDefinedField effectiveDate="2012-01-01">
+							<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+							<displayName>PRODUCT_LINE_CODE</displayName>
+							<type>PRODUCT_LINE_CODE</type>
+							<value>6</value>
+							<dataValueType>STRING</dataValueType>
+						</carrierDefinedField>
+						<carrierDefinedField effectiveDate="2012-01-01">
+							<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+							<displayName>ACCOUNT_NBR</displayName>
+							<type>ACCOUNT_NBR</type>
+							<value>5</value>
+							<dataValueType>STRING</dataValueType>
+						</carrierDefinedField>
+						<carrierDefinedField effectiveDate="2012-01-01">
+							<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+							<displayName>WELCOME_LETTER</displayName>
+							<type>WELCOME_LETTER</type>
+							<value>6CO</value>
+							<dataValueType>STRING</dataValueType>
+						</carrierDefinedField>
+						<carrierDefinedField effectiveDate="2012-01-01">
+							<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+							<displayName>CONTROL_NBR</displayName>
+							<type>CONTROL_NBR</type>
+							<value>888189</value>
+							<dataValueType>STRING</dataValueType>
+						</carrierDefinedField>
+						<carrierDefinedField effectiveDate="2012-01-01">
+							<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+							<displayName>MEDICARE_IND</displayName>
+							<type>MEDICARE_IND</type>
+							<value>No</value>
+							<dataValueType>STRING</dataValueType>
+						</carrierDefinedField>
+						<carrierDefinedField effectiveDate="2012-01-01">
+							<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+							<displayName>COC_POSTCARD</displayName>
+							<type>COC_POSTCARD</type>
+							<value>NO</value>
+							<dataValueType>STRING</dataValueType>
+						</carrierDefinedField>
+						<carrierDefinedField effectiveDate="2012-01-01">
+							<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+							<displayName>POLICY_PAGE</displayName>
+							<type>POLICY_PAGE</type>
+							<value>PCC</value>
+							<dataValueType>STRING</dataValueType>
+						</carrierDefinedField>
+						<carrierDefinedField effectiveDate="2012-01-01">
+							<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+							<displayName>INDIVIDUAL_RATEUP_FACTOR</displayName>
+							<type>INDIVIDUAL_RATEUP_FACTOR</type>
+							<value>1.0</value>
+							<dataValueType>STRING</dataValueType>
+						</carrierDefinedField>
+						<carrierDefinedField effectiveDate="2012-01-01">
+							<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+							<displayName>REDUCED_COMP_INDICATOR</displayName>
+							<type>REDUCED_COMP_INDICATOR</type>
+							<value>FALSE</value>
+							<dataValueType>BOOLEAN</dataValueType>
+						</carrierDefinedField>
+						<carrierDefinedField effectiveDate="2012-01-01">
+							<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+							<displayName>UW_LEVEL</displayName>
+							<type>UW_LEVEL</type>
+							<value>A0</value>
+							<dataValueType>STRING</dataValueType>
+						</carrierDefinedField>
+						<carrierDefinedField effectiveDate="2012-01-01">
+							<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+							<displayName>PACKAGE_ID</displayName>
+							<type>PACKAGE_ID</type>
+							<value>58</value>
+							<dataValueType>STRING</dataValueType>
+						</carrierDefinedField>
+						<carrierDefinedField effectiveDate="2012-01-01">
+							<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+							<displayName>FINAL_RATEUP_FACTOR</displayName>
+							<type>FINAL_RATEUP_FACTOR</type>
+							<value>1.0</value>
+							<dataValueType>STRING</dataValueType>
+						</carrierDefinedField>
+						<carrierDefinedField effectiveDate="2012-01-01">
+							<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+							<displayName>GA_SUPPRESS_INDICATOR</displayName>
+							<type>GA_SUPPRESS_INDICATOR</type>
+							<value>FALSE</value>
+							<dataValueType>BOOLEAN</dataValueType>
+						</carrierDefinedField>
+					</carrierDefinedFields>
+					<initialPayment/>
+					<recurringPayment/>
+					<carrierBillingInformation originalEffectiveDate="2012-01-01">
+						<carrierIdentification>
+							<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+							<carrierShortName>Aetna</carrierShortName>
+						</carrierIdentification>
+						<responsibleParty effectiveDate="2012-01-01">
+							<personName>
+								<lastName>Heffernan</lastName>
+								<firstName>Doug</firstName>
+							</personName>
+							<address>
+								<primaryStreet>7680 Poplar Avenue</primaryStreet>
+								<city>Germantown</city>
+								<state>TN</state>
+								<country>US</country>
+								<postalCode>38183</postalCode>
+							</address>
+						</responsibleParty>
+						<billingGroupId>BF0005886</billingGroupId>
+						<billingDay>1</billingDay>
+					</carrierBillingInformation>
+					<familyMember referenceId="B8666B3CFE8F10C1E040C80A1F173D4C">
+						<memberIdentificationReferenceId>B865BEB1E36DD388E040C80A1F1778B8</memberIdentificationReferenceId>
+						<relationship>SPOUSE</relationship>
+						<carrierDefinedFields>
+							<carrierDefinedField effectiveDate="2012-01-01">
+								<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+								<displayName>MEDICARE_IND</displayName>
+								<type>MEDICARE_IND</type>
+								<value>No</value>
+								<dataValueType>STRING</dataValueType>
+							</carrierDefinedField>
+							<carrierDefinedField effectiveDate="2012-01-01">
+								<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+								<displayName>INDIVIDUAL_RATEUP_FACTOR</displayName>
+								<type>INDIVIDUAL_RATEUP_FACTOR</type>
+								<value>1.0</value>
+								<dataValueType>STRING</dataValueType>
+							</carrierDefinedField>
+							<carrierDefinedField effectiveDate="2012-01-01">
+								<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+								<displayName>UW_LEVEL</displayName>
+								<type>UW_LEVEL</type>
+								<value>A0</value>
+								<dataValueType>STRING</dataValueType>
+							</carrierDefinedField>
+							<carrierDefinedField effectiveDate="2012-01-01">
+								<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+								<displayName>FINAL_RATEUP_FACTOR</displayName>
+								<type>FINAL_RATEUP_FACTOR</type>
+								<value>1.0</value>
+								<dataValueType>STRING</dataValueType>
+							</carrierDefinedField>
+							<carrierDefinedField effectiveDate="2012-01-01">
+								<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+								<displayName>CONTROL_NBR</displayName>
+								<type>CONTROL_NBR</type>
+								<value>888189</value>
+								<dataValueType>STRING</dataValueType>
+							</carrierDefinedField>
+							<carrierDefinedField effectiveDate="2012-01-01">
+								<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+								<displayName>PACKAGE_ID</displayName>
+								<type>PACKAGE_ID</type>
+								<value>58</value>
+								<dataValueType>STRING</dataValueType>
+							</carrierDefinedField>
+							<carrierDefinedField effectiveDate="2012-01-01">
+								<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+								<displayName>ACCOUNT_NBR</displayName>
+								<type>ACCOUNT_NBR</type>
+								<value>5</value>
+								<dataValueType>STRING</dataValueType>
+							</carrierDefinedField>
+						</carrierDefinedFields>
+						<coverageDates>
+							<originalEffectiveDate>
+								<value>2012-01-01</value>
+							</originalEffectiveDate>
+							<effectiveDate>2012-01-01</effectiveDate>
+						</coverageDates>
+						<memberBenefitIdentification/>
+					</familyMember>
+					<familyMember referenceId="B8666B3CFE8A10C1E040C80A1F173D4C">
+						<memberIdentificationReferenceId>B865BEB1E36CD388E040C80A1F1778B8</memberIdentificationReferenceId>
+						<relationship>CHILD</relationship>
+						<carrierDefinedFields>
+							<carrierDefinedField effectiveDate="2012-01-01">
+								<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+								<displayName>MEDICARE_IND</displayName>
+								<type>MEDICARE_IND</type>
+								<value>No</value>
+								<dataValueType>STRING</dataValueType>
+							</carrierDefinedField>
+							<carrierDefinedField effectiveDate="2012-01-01">
+								<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+								<displayName>INDIVIDUAL_RATEUP_FACTOR</displayName>
+								<type>INDIVIDUAL_RATEUP_FACTOR</type>
+								<value>1.0</value>
+								<dataValueType>STRING</dataValueType>
+							</carrierDefinedField>
+							<carrierDefinedField effectiveDate="2012-01-01">
+								<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+								<displayName>UW_LEVEL</displayName>
+								<type>UW_LEVEL</type>
+								<value>A0</value>
+								<dataValueType>STRING</dataValueType>
+							</carrierDefinedField>
+							<carrierDefinedField effectiveDate="2012-01-01">
+								<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+								<displayName>FINAL_RATEUP_FACTOR</displayName>
+								<type>FINAL_RATEUP_FACTOR</type>
+								<value>1.0</value>
+								<dataValueType>STRING</dataValueType>
+							</carrierDefinedField>
+							<carrierDefinedField effectiveDate="2012-01-01">
+								<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+								<displayName>CONTROL_NBR</displayName>
+								<type>CONTROL_NBR</type>
+								<value>888189</value>
+								<dataValueType>STRING</dataValueType>
+							</carrierDefinedField>
+							<carrierDefinedField effectiveDate="2012-01-01">
+								<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+								<displayName>PACKAGE_ID</displayName>
+								<type>PACKAGE_ID</type>
+								<value>58</value>
+								<dataValueType>STRING</dataValueType>
+							</carrierDefinedField>
+							<carrierDefinedField effectiveDate="2012-01-01">
+								<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+								<displayName>ACCOUNT_NBR</displayName>
+								<type>ACCOUNT_NBR</type>
+								<value>5</value>
+								<dataValueType>STRING</dataValueType>
+							</carrierDefinedField>
+						</carrierDefinedFields>
+						<coverageDates>
+							<originalEffectiveDate>
+								<value>2012-01-01</value>
+							</originalEffectiveDate>
+							<effectiveDate>2012-01-01</effectiveDate>
+						</coverageDates>
+						<memberBenefitIdentification/>
+					</familyMember>
+				</memberBenefit>
+				<contactInformation>
+					<communicationPreference>MAIL</communicationPreference>
+					<emailCommunicationEnabled>false</emailCommunicationEnabled>
+				</contactInformation>
+			</memberInformation>
+		</enrollMemberRequest>
+	</S:Body>
+</S:Envelope>

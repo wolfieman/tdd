@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.tddinaction.j2ee.web.view.jsp.jsptest.EmptyPageTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.377 sec

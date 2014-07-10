@@ -1,0 +1,42 @@
+<eDirectFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="eDirect-EBS Trigger V1.0.xsd">
+<eDirectRecord>
+<HeaderInfo>
+<HeaderRecordType>000</HeaderRecordType>
+<HeaderTransactionID></HeaderTransactionID>
+<HeaderTransactionType>EBSBATINTF</HeaderTransactionType>
+<HeaderDateTime></HeaderDateTime>
+<HeaderSenderID>BENEFIT_FOCUS_EDIRECT</HeaderSenderID>
+<HeaderRecieverID>AETNA_EDI_GATEWAY</HeaderRecieverID>
+<HeaderTestProdID/>
+</HeaderInfo>
+<FamilyTransactionRecord>
+<BillPackage>
+<MemberTransactionRecordType>FAM</MemberTransactionRecordType>
+<FamilyID>BF0005414</FamilyID>
+<IVLCustGroupID>BF0005414</IVLCustGroupID>
+<LineOfBusiness>IVL</LineOfBusiness>
+<PostedDTS>2011-12-16-18.10.00.115000</PostedDTS>
+<BillRecordType>BPM</BillRecordType>
+<CustomerFirstName>David</CustomerFirstName>
+<CustomerLastName>Walker</CustomerLastName>
+<BillEffectiveDate>2011-11-01</BillEffectiveDate>
+<USAddressLine1>203 Test Ave</USAddressLine1>
+<USAddressLine2>Suite 3004</USAddressLine2>
+<USAddressCityName>Maryville</USAddressCityName>
+<CountrySubCode>TN</CountrySubCode>
+<USAddressCountryCode>US</USAddressCountryCode>
+<ZipCode>37801</ZipCode>
+<USTelephoneAreaCode>615</USTelephoneAreaCode>
+<USTelephoneNumber>2881627</USTelephoneNumber>
+<BillEmailPrefix>BILLING</BillEmailPrefix>
+<BillEmailSuffix>AETNA.COM</BillEmailSuffix>
+</BillPackage>
+</FamilyTransactionRecord>
+<TrailerInfo>
+<TrailerRecordtype>999</TrailerRecordtype>
+<FamilyTransactionCounter>0</FamilyTransactionCounter>
+<SpecialRequestCounter>0</SpecialRequestCounter>
+<TotalTransactionCounter>0</TotalTransactionCounter>
+</TrailerInfo>
+</eDirectRecord>
+</eDirectFile>

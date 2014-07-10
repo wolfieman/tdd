@@ -1,0 +1,229 @@
+<S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/">
+<S:Header>
+<wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+<wsse:CustomToken TokenIssuer="BenefitFocus" version="3.0">
+MSCA5oYa+vJq2TVyVDX0kmD03NLux0VKKpvyUFO1NjRr/K67SdrSQ/ndqvG3iI5+G5cyfu+VZ+cgzZnIOUYm7jy7wMvjATE20pwxA8mAcG8=
+</wsse:CustomToken>
+</wsse:Security>
+<Benefitfocus>
+<MessageId>e5cd77bd-98e2-4ce2-8f56-be99fecc517d</MessageId>
+</Benefitfocus>
+</S:Header>
+<S:Body>
+<ns39:addMemberAndBenefitsRequest xmlns:ns10="http://schemas.benefitfocus.com/common/general/2010/2/1/address" xmlns:ns11="http://schemas.benefitfocus.com/common/general/2010/1/1/phoneNumber" xmlns:ns12="http://schemas.benefitfocus.com/common/general/2010/1/1/emailAddress" xmlns:ns13="http://schemas.benefitfocus.com/common/general/2010/1/1/ssn" xmlns:ns14="http://schemas.benefitfocus.com/common/general/2010/2/1/gender" xmlns:ns15="http://schemas.benefitfocus.com/common/general/2010/1/1/maritalStatus" xmlns:ns16="http://schemas.benefitfocus.com/common/general/2010/1/1/ethnicity" xmlns:ns17="http://schemas.benefitfocus.com/member/general/2010/2/1/memberPersonalIdentification" xmlns:ns18="http://schemas.benefitfocus.com/member/general/2010/2/1/familyInformation" xmlns:ns19="http://schemas.benefitfocus.com/member/general/2010/2/1/memberFilter" xmlns:ns2="http://schemas.benefitfocus.com/common/general/2010/1/1/carrierIdentification" xmlns:ns20="http://schemas.benefitfocus.com/common/general/2010/1/1/planIdentification" xmlns:ns21="http://schemas.benefitfocus.com/common/general/2010/2/1/carrierDefinedFields" xmlns:ns22="http://schemas.benefitfocus.com/member/general/2010/1/1/memberBenefitSummary" xmlns:ns23="http://schemas.benefitfocus.com/billing/general/2010/2/1/paymentRequest" xmlns:ns24="http://schemas.benefitfocus.com/member/general/2010/1/1/memberBenefitIdentification" xmlns:ns25="http://schemas.benefitfocus.com/common/general/2010/1/1/paymentFrequency" xmlns:ns26="http://schemas.benefitfocus.com/billing/general/2010/2/1/carrierBillingInformation" xmlns:ns27="http://schemas.benefitfocus.com/agent/general/2010/3/1/agentInformation" xmlns:ns28="http://schemas.benefitfocus.com/agent/general/2010/3/1/agencyInformation" xmlns:ns29="http://schemas.benefitfocus.com/common/general/2010/1/1/relationship" xmlns:ns3="http://schemas.benefitfocus.com/common/general/2010/1/1/sponsorIdentification" xmlns:ns30="http://schemas.benefitfocus.com/member/general/2011/1/1/memberBenefit" xmlns:ns31="http://schemas.benefitfocus.com/member/general/2011/1/1/application" xmlns:ns32="http://schemas.benefitfocus.com/member/general/2010/2/1/organization" xmlns:ns33="http://schemas.benefitfocus.com/member/general/2011/1/1/memberInformation" xmlns:ns34="http://schemas.benefitfocus.com/member/general/2010/2/1/significantDates" xmlns:ns35="http://schemas.benefitfocus.com/common/general/2010/1/1/task" xmlns:ns36="http://schemas.benefitfocus.com/common/general/2010/1/1/message" xmlns:ns37="http://schemas.benefitfocus.com/member/general/2010/1/1/memberResponseOptions" xmlns:ns38="http://schemas.benefitfocus.com/common/general/2010/1/1/platformServiceResult" xmlns:ns39="http://services.benefitfocus.com/member/general/2011/1/1/" xmlns:ns4="http://schemas.benefitfocus.com/common/general/2010/1/1/contactInformation" xmlns:ns40="http://schemas.benefitfocus.com/common/general/2010/1/1/difference" xmlns:ns41="http://schemas.benefitfocus.com/member/general/2011/1/1/memberBenefitSummary" xmlns:ns42="http://schemas.benefitfocus.com/member/general/2011/1/1/memberListInformation" xmlns:ns43="http://schemas.benefitfocus.com/member/general/2010/2/1/significantDatesFilter" xmlns:ns44="http://schemas.benefitfocus.com/member/general/2010/2/2/nonManagedBenefits" xmlns:ns45="http://schemas.benefitfocus.com/common/general/2010/1/1/tenant" xmlns:ns46="http://schemas.benefitfocus.com/member/general/2011/1/1/memberFilter" xmlns:ns47="http://schemas.benefitfocus.com/common/general/2010/1/1/benefitType" xmlns:ns48="http://schemas.benefitfocus.com/common/general/2010/2/1/sponsorIdentification" xmlns:ns49="http://schemas.benefitfocus.com/common/general/2010/1/1/coverageLevelType" xmlns:ns5="http://schemas.benefitfocus.com/common/general/2010/2/1/contactInformation" xmlns:ns6="http://schemas.benefitfocus.com/common/general/2010/1/1/currency" xmlns:ns7="http://schemas.benefitfocus.com/common/general/2010/1/1/metadata" xmlns:ns8="http://schemas.benefitfocus.com/member/general/2010/2/1/memberIdentification" xmlns:ns9="http://schemas.benefitfocus.com/common/general/2010/1/1/personName">
+<ns33:memberInformation>
+<ns8:memberIdentification effectiveDate="2011-06-01" originalEffectiveDate="2011-06-01" referenceId="ReferenceID1">
+<personCarrierIdentification>
+<ns2:carrierIdentification>
+<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+</ns2:carrierIdentification>
+</personCarrierIdentification>
+</ns8:memberIdentification>
+<ns17:memberPersonalIdentification referenceId="ReferenceID1">
+<ns9:personName>
+<lastName>CheckPaymentTest2</lastName>
+<firstName>Matt</firstName>
+<middleName/>
+<suffix/>
+</ns9:personName>
+<ns10:address effectiveDate="2011-06-01" originalEffectiveDate="2011-06-01">
+<ns10:primaryStreet>100 Benefitfocus Way</ns10:primaryStreet>
+<ns10:secondaryStreet/>
+<ns10:city>Seaford</ns10:city>
+<ns10:county/>
+<ns10:state>TN</ns10:state>
+<ns10:country>US</ns10:country>
+<ns10:postalCode>37210</ns10:postalCode>
+</ns10:address>
+<ns11:homePhoneNumber>888-888-8888</ns11:homePhoneNumber>
+<ns13:ssn>234-09-0599</ns13:ssn>
+<ns14:gender effectiveDate="2011-06-01" originalEffectiveDate="2011-06-01">MALE</ns14:gender>
+<birthDate>1980-01-01</birthDate>
+<personalIdentificationChangeEffectiveDate>2011-06-01</personalIdentificationChangeEffectiveDate>
+</ns17:memberPersonalIdentification>
+<ns31:application effectiveDate="2011-06-01" originalEffectiveDate="2011-06-01" referenceId="ReferenceID1">
+<applicationId>BF0000222</applicationId>
+<receivedDate>2011-10-31</receivedDate>
+<applicant referenceId="ReferenceID1">
+<memberIdentificationReferenceId>ReferenceID1</memberIdentificationReferenceId>
+<applicantId>BF0000222APP</applicantId>
+<signatureDate>2011-05-01</signatureDate>
+</applicant>
+<ns21:carrierDefinedFields>
+<ns21:carrierDefinedField effectiveDate="2011-06-01" originalEffectiveDate="2011-06-01">
+<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+<displayName>APPLICATION_SOURCE</displayName>
+<type>APPLICATION_SOURCE</type>
+<value>MANUAL</value>
+<dataValueType>STRING</dataValueType>
+</ns21:carrierDefinedField>
+<ns21:carrierDefinedField effectiveDate="2011-06-01" referenceId="57848918">
+<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+<displayName>BINDER_CHECK_NAME</displayName>
+<type>BINDER_CHECK_NAME</type>
+<value>popeye</value>
+<dataValueType>STRING</dataValueType>
+</ns21:carrierDefinedField>
+<ns21:carrierDefinedField effectiveDate="2011-06-01" referenceId="57848935">
+<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+<displayName>BINDER_CHECK_NUMBER</displayName>
+<type>BINDER_CHECK_NUMBER</type>
+<value>-1059192126</value>
+<dataValueType>STRING</dataValueType>
+</ns21:carrierDefinedField>
+</ns21:carrierDefinedFields>
+</ns31:application>
+<ns30:memberBenefit referenceId="benefitReferenceID">
+<subscriber>
+<memberIdentificationReferenceId>ReferenceID1</memberIdentificationReferenceId>
+</subscriber>
+<planName>PPO 2500</planName>
+<planID>1403725</planID>
+<productType>PPO</productType>
+<ratingArea>TNRA04</ratingArea>
+<benefitType>MEDICAL</benefitType>
+<planRate effectiveDate="2011-06-01" originalEffectiveDate="2011-06-01">
+<memberCost>
+<ns6:currency>
+<currencyType>USD</currencyType>
+<amount>178.00</amount>
+</ns6:currency>
+</memberCost>
+<rateGuaranteeExpirationDate>2011-12-01</rateGuaranteeExpirationDate>
+<basePremium>
+<ns6:currency>
+<currencyType>USD</currencyType>
+<amount>0</amount>
+</ns6:currency>
+</basePremium>
+<basePremiumFactor>0.0</basePremiumFactor>
+</planRate>
+<coverageDates>
+<effectiveDate>2011-06-01</effectiveDate>
+</coverageDates>
+<ns21:carrierDefinedFields>
+<ns21:carrierDefinedField effectiveDate="2011-06-01" originalEffectiveDate="2011-06-01">
+<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+<displayName>CONTROL_NBR</displayName>
+<type>CONTROL_NBR</type>
+<value>888189</value>
+<dataValueType>STRING</dataValueType>
+</ns21:carrierDefinedField>
+<ns21:carrierDefinedField effectiveDate="2011-06-01" originalEffectiveDate="2011-06-01">
+<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+<displayName>ACCOUNT_NBR</displayName>
+<type>ACCOUNT_NBR</type>
+<value>00002</value>
+<dataValueType>STRING</dataValueType>
+</ns21:carrierDefinedField>
+<ns21:carrierDefinedField effectiveDate="2011-06-01" originalEffectiveDate="2011-06-01">
+<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+<displayName>PACKAGE_ID</displayName>
+<type>PACKAGE_ID</type>
+<value>58</value>
+<dataValueType>STRING</dataValueType>
+</ns21:carrierDefinedField>
+<ns21:carrierDefinedField effectiveDate="2011-06-01" originalEffectiveDate="2011-06-01">
+<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+<displayName>HIPAA_IND</displayName>
+<type>HIPAA_IND</type>
+<value>FALSE</value>
+<dataValueType>BOOLEAN</dataValueType>
+</ns21:carrierDefinedField>
+<ns21:carrierDefinedField effectiveDate="2011-06-01" originalEffectiveDate="2011-06-01">
+<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+<displayName>GA_SUPPRESS_INDICATOR</displayName>
+<type>GA_SUPPRESS_INDICATOR</type>
+<value>FALSE</value>
+<dataValueType>BOOLEAN</dataValueType>
+</ns21:carrierDefinedField>
+<ns21:carrierDefinedField effectiveDate="2011-06-01" originalEffectiveDate="2011-06-01">
+<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+<displayName>REDUCED_COMP_INDICATOR</displayName>
+<type>REDUCED_COMP_INDICATOR</type>
+<value>FALSE</value>
+<dataValueType>BOOLEAN</dataValueType>
+</ns21:carrierDefinedField>
+<ns21:carrierDefinedField effectiveDate="2011-06-01" originalEffectiveDate="2011-06-01">
+<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+<displayName>PRODUCT_LINE_CODE</displayName>
+<type>PRODUCT_LINE_CODE</type>
+<value>6</value>
+<dataValueType>STRING</dataValueType>
+</ns21:carrierDefinedField>
+<ns21:carrierDefinedField effectiveDate="2011-06-01" originalEffectiveDate="2011-06-01">
+<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+<displayName>FINAL_RATEUP_FACTOR</displayName>
+<type>FINAL_RATEUP_FACTOR</type>
+<value>1.0</value>
+<dataValueType>STRING</dataValueType>
+</ns21:carrierDefinedField>
+<ns21:carrierDefinedField effectiveDate="2011-06-01" originalEffectiveDate="2011-06-01">
+<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+<displayName>MEDICARE_IND</displayName>
+<type>MEDICARE_IND</type>
+<value>No</value>
+<dataValueType>STRING</dataValueType>
+</ns21:carrierDefinedField>
+<ns21:carrierDefinedField effectiveDate="2011-06-01" originalEffectiveDate="2011-06-01">
+<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+<displayName>UW_LEVEL</displayName>
+<type>UW_LEVEL</type>
+<value>A0</value>
+<dataValueType>STRING</dataValueType>
+</ns21:carrierDefinedField>
+<ns21:carrierDefinedField effectiveDate="2011-06-01" originalEffectiveDate="2011-06-01">
+<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+<displayName>INDIVIDUAL_RATEUP_FACTOR</displayName>
+<type>INDIVIDUAL_RATEUP_FACTOR</type>
+<value>1.0</value>
+<dataValueType>STRING</dataValueType>
+</ns21:carrierDefinedField>
+</ns21:carrierDefinedFields>
+<initialPayment>
+<ns23:Payment xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns23:PaymentCheck">
+<ns23:PaymentAmount>178.00</ns23:PaymentAmount>
+<ns23:HoldPaymentFlag>false</ns23:HoldPaymentFlag>
+<ns23:ACH>
+<ns23:AccountType>Checking</ns23:AccountType>
+<ns23:AccountNumber>99999999999999</ns23:AccountNumber>
+<ns23:RoutingNumber>999999999</ns23:RoutingNumber>
+<ns23:NameOnAccount>popeye</ns23:NameOnAccount>
+<ns23:InstitutionName>DummyDataName</ns23:InstitutionName>
+</ns23:ACH>
+<ns23:Check>
+<ns23:NameOnCheck>popeye</ns23:NameOnCheck>
+<ns23:CheckNumber>123494859458</ns23:CheckNumber>
+</ns23:Check>
+</ns23:Payment>
+</initialPayment>
+<ns26:carrierBillingInformation effectiveDate="2011-06-01" originalEffectiveDate="2011-06-01">
+<ns2:carrierIdentification>
+<BenefitfocusCarrierId>5DE53F0C768A393DE040640A6E11267C</BenefitfocusCarrierId>
+</ns2:carrierIdentification>
+<responsibleParty effectiveDate="2011-06-01" originalEffectiveDate="2011-06-01">
+<ns9:personName>
+<lastName>CheckPaymentTest2</lastName>
+<firstName>Matt</firstName>
+<middleName/>
+</ns9:personName>
+<ns10:address effectiveDate="2011-06-01" originalEffectiveDate="2011-06-01">
+<ns10:primaryStreet>100 Benefitfocus Way</ns10:primaryStreet>
+<ns10:secondaryStreet/>
+<ns10:city>Seaford</ns10:city>
+<ns10:state>TN</ns10:state>
+<ns10:postalCode>37210</ns10:postalCode>
+</ns10:address>
+</responsibleParty>
+<billingGroupId>BF0000222</billingGroupId>
+</ns26:carrierBillingInformation>
+</ns30:memberBenefit>
+<ns5:contactInformation referenceId="ReferenceID1">
+<memberIdentificationReferenceId>ReferenceID1</memberIdentificationReferenceId>
+<ns4:communicationPreference>MAIL</ns4:communicationPreference>
+<ns4:emailCommunicationEnabled>false</ns4:emailCommunicationEnabled>
+</ns5:contactInformation>
+</ns33:memberInformation>
+</ns39:addMemberAndBenefitsRequest>
+</S:Body>
+</S:Envelope>

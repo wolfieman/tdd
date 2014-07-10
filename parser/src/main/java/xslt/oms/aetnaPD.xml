@@ -1,0 +1,273 @@
+<?xml version='1.0' ?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                xmlns:a="http://bf.bts.applications.ESB.schema.Export.Fulfillment.AetnaPD"
+                xmlns:b="http://schemas.benefitfocus.com/member/general/2010/1/1/memberBenefitIdentification"
+                xmlns:c="http://schemas.benefitfocus.com/events/general/2011/1/1/notificationRequest"
+                xmlns:d="http://schemas.benefitfocus.com/common/general/2010/1/1/personName"
+                xmlns:e="http://schemas.benefitfocus.com/common/general/2010/2/1/carrierDefinedFields"
+                xmlns:f="http://schemas.benefitfocus.com/common/general/2010/2/1/address"
+                xmlns:g="http://schemas.benefitfocus.com/common/general/2010/1/1/currency"
+                xmlns:ext="urn:extension-lib:functions"
+                xmlns:msxsl="urn:schemas-microsoft-com:xslt"
+                extension-element-prefixes="ext">
+
+
+  <!-- Comment out the script block before checking in -->
+<!--
+  <msxsl:script language="C#" implements-prefix="ext">
+    <![CDATA[
+        /// <summary>
+        ///
+        /// </summary>
+        /// <returns></returns>
+        public string GetCurrentDateTime()
+        {
+            return System.DateTime.Now.ToString("s");
+        }
+
+        /// <summary>
+        ///
+        /// </summary>
+        /// <returns></returns>
+        public string GetCurrentDateTime(string format)
+        {
+            return System.DateTime.Now.ToString(format);
+        }
+
+        /// <summary>
+        ///
+        /// </summary>
+        /// <param name="dateTimeString"></param>
+        /// <param name="format"></param>
+        /// <returns></returns>
+        public string FormatDateTime(string dateTimeString, string format)
+        {
+            DateTime dt;
+
+            if (DateTime.TryParse(dateTimeString, out dt))
+            {
+                return dt.ToString(format);
+            }
+            else
+            {
+                return string.Empty;
+            }
+        }
+
+        /// <summary>
+        ///
+        /// </summary>
+        /// <param name="dateTimeString"></param>
+        /// <param name="yearsToAdd"></param>
+        /// <param name="monthsToAdd"></param>
+        /// <param name="daysToAdd"></param>
+        /// <param name="format"></param>
+        /// <returns></returns>
+        public string DateAdd(string dateTimeString, int yearsToAdd, int monthsToAdd, int daysToAdd, string format)
+        {
+            DateTime dt;
+
+            if (DateTime.TryParse(dateTimeString, out dt))
+            {
+                dt = dt.AddYears(yearsToAdd);
+                dt = dt.AddMonths(monthsToAdd);
+                dt = dt.AddDays(daysToAdd);
+                return dt.ToString(format);
+            }
+            else
+            {
+                return string.Empty;
+            }
+        }
+
+        /// <summary>
+        ///
+        /// </summary>
+        /// <param name="dt"></param>
+        /// <returns></returns>
+        public string DayOfTheMonth(DateTime dt)
+        {
+            string day = string.Empty;
+            string suffix = string.Empty;
+
+            if(dt != null)
+            {
+                int lastDigit = dt.Day % 10;
+                switch(lastDigit)
+                {
+                    case 1:
+                        suffix = "st";
+                        break;
+
+                    case 2:
+                        suffix = "nd";
+                        break;
+
+                    case 3:
+                        suffix = "rd";
+                        break;
+
+                    default:
+                        suffix = "th";
+                        break;
+                }
+
+                day = string.Format("{0}{1} of the month", dt.Day, suffix);
+            }
+
+            return day;
+        }
+
+        public string GetBFContextPropertyValue(string propName)
+        {
+          return "";
+        }
+
+]]>
+  </msxsl:script>
+-->
+
+  <xsl:template match="/">
+    <xsl:variable name="Environment" select="ext:GetBFContextPropertyValue('Environment')" />
+		<a:PD>
+			<Header>
+				<GroupID>
+					<xsl:value-of select="'BENEFITFOCUS'"/>
+				</GroupID>
+				<FileFormatName>
+					<xsl:value-of select="'BF Simple File Format'"/>
+				</FileFormatName>
+				<FileFormatVersion>
+					<xsl:value-of select="'01.0'"/>
+				</FileFormatVersion>
+				<CreationDate>
+					<xsl:value-of select="ext:GetCurrentDateTime('MMddyyyy')"/>
+				</CreationDate>
+				<CreationTime>
+          <xsl:value-of select="ext:GetCurrentDateTime('hhmm')"/>
+				</CreationTime>
+				<SectionCount>
+					<xsl:value-of select="count(//*[local-name()='notificationRequestType'  and ./*[local-name()='channel']='P&amp;D'])"/>
+				</SectionCount>
+				<UsageCode>
+          <xsl:if test="$Environment='PROD'">
+					  <xsl:value-of select="'PROD'"/>
+          </xsl:if>
+          <xsl:if test="$Environment!='PROD'">
+            <xsl:value-of select="'TEST'"/>
+          </xsl:if>
+				</UsageCode>
+				<NumberOfLines>
+          <xsl:value-of select="count(//*[local-name()='notificationRequestType'  and ./*[local-name()='channel']='P&amp;D'])"/>
+				</NumberOfLines>
+			</Header>
+      <xsl:for-each select="//*[local-name()='notificationRequestType' and ./*[local-name()='channel']='P&amp;D']">
+			  <Record>
+				<MEMBER-ID>
+					<xsl:value-of select="./*[local-name()='enrollmentInfo']/*[local-name()='memberBenefit'][1]/*[local-name()='memberBenefitIdentification']/*[local-name()='altMemberBenefitId']"/>
+				</MEMBER-ID>
+				<FIRST-NAME>
+					<xsl:value-of select="./*[local-name()='enrollmentInfo']/*[local-name()='memberPersonalIdentification']/*[local-name()='personName']/*[local-name()='firstName']"/>
+				</FIRST-NAME>
+				<LAST-NAME>
+          <xsl:value-of select="./*[local-name()='enrollmentInfo']/*[local-name()='memberPersonalIdentification']/*[local-name()='personName']/*[local-name()='lastName']"/>
+        </LAST-NAME>
+				<MIDDLE-NAME>
+          <xsl:value-of select="./*[local-name()='enrollmentInfo']/*[local-name()='memberPersonalIdentification']/*[local-name()='personName']/*[local-name()='middleName']"/>
+        </MIDDLE-NAME>
+				<TYPE-OF-COV>
+					<xsl:value-of select="./*[local-name()='enrollmentInfo']/*[local-name()='memberBenefit'][1]/*[local-name()='coverageLevelName']"/>
+				</TYPE-OF-COV>
+				<DENTAL-IND>
+					<xsl:value-of select="./*[local-name()='enrollmentInfo']/*[local-name()='memberBenefit'][1]/*[local-name()='carrierDefinedFields']/*[local-name()='carrierDefinedField' and ./*[local-name()='type']='DENTAL_RIDER']/*[local-name()='value']"/>
+				</DENTAL-IND>
+				<PPID>
+					<xsl:value-of select="./*[local-name()='enrollmentInfo']/*[local-name()='memberBenefit'][1]/*[local-name()='planID']"/>
+				</PPID>
+				<EFF-DATE>
+					<xsl:value-of select="ext:FormatDateTime(./*[local-name()='enrollmentInfo']/*[local-name()='memberPersonalIdentification']/@originalEffectiveDate, 'MMddyyyy')"/>
+				</EFF-DATE>
+				<TRM-DATE>
+					<xsl:value-of select="ext:DateAdd(./*[local-name()='enrollmentInfo']/*[local-name()='memberPersonalIdentification']/@originalEffectiveDate,0,1,-1,'MMddyyyy')"/>
+				</TRM-DATE>
+				<RATING-AREA>
+					<xsl:value-of select="./*[local-name()='enrollmentInfo']/*[local-name()='memberBenefit'][1]/*[local-name()='carrierDefinedFields']/*[local-name()='carrierDefinedField' and ./*[local-name()='type']='RATING_AREA_CD']/*[local-name()='value']"/>
+				</RATING-AREA>
+				<ADDR-1>
+					<xsl:value-of select="./*[local-name()='enrollmentInfo']/*[local-name()='memberPersonalIdentification']/*[local-name()='address']/*[local-name()='primaryStreet']"/>
+				</ADDR-1>
+				<ADDR-2>
+					<xsl:value-of select="./*[local-name()='enrollmentInfo']/*[local-name()='memberPersonalIdentification']/*[local-name()='address']/*[local-name()='secondaryStreet']"/>
+				</ADDR-2>
+				<CITY>
+					<xsl:value-of select="./*[local-name()='enrollmentInfo']/*[local-name()='memberPersonalIdentification']/*[local-name()='address']/*[local-name()='city']"/>
+				</CITY>
+				<ST>
+					<xsl:value-of select="./*[local-name()='enrollmentInfo']/*[local-name()='memberPersonalIdentification']/*[local-name()='address']/*[local-name()='state']"/>
+				</ST>
+				<ZIP>
+					<xsl:value-of select="./*[local-name()='enrollmentInfo']/*[local-name()='memberPersonalIdentification']/*[local-name()='address']/*[local-name()='postalCode']"/>
+				</ZIP>
+				<PRINT-DATE>
+					<xsl:value-of select="ext:FormatDateTime(./*[local-name()='printDate'], 'MMddyyyy')"/>
+				</PRINT-DATE>
+				<REQUEST-DATE>
+          <xsl:value-of select="ext:FormatDateTime(./*[local-name()='generateDate'], 'MMddyyyy')"/>
+				</REQUEST-DATE>
+				<RATE>
+					<xsl:value-of select="./*[local-name()='enrollmentInfo']/*[local-name()='memberBenefit'][1]/*[local-name()='newPlanRate']/*[local-name()='memberCost']/*[local-name()='currency']/*[local-name()='amount']"/>
+				</RATE>
+				<GROUP-NUMBER>
+          <xsl:value-of select="./*[local-name()='billingGroupId']"/>
+				</GROUP-NUMBER>
+				<PC-PRT-Type>
+          <xsl:variable name="COC_POSTCARD">
+            <xsl:value-of select="./*[local-name()='enrollmentInfo']/*[local-name()='memberBenefit'][1]/*[local-name()='carrierDefinedFields']/*[local-name()='carrierDefinedField' and ./*[local-name()='type']='COC_POSTCARD']/*[local-name()='value']"/>
+          </xsl:variable>
+					<xsl:if test="$COC_POSTCARD = 'Y'">
+						<xsl:value-of select="'AT0253'"/>
+					</xsl:if>
+					<xsl:if test="$COC_POSTCARD != 'Y'">
+						<xsl:value-of select="'PRT000'"/>
+					</xsl:if>
+				</PC-PRT-Type>
+				<CONTROL-NUMBER>
+					<xsl:value-of select="./*[local-name()='enrollmentInfo']/*[local-name()='memberBenefit'][1]/*[local-name()='carrierDefinedFields']/*[local-name()='carrierDefinedField' and ./*[local-name()='type']='CONTROL_NBR']/*[local-name()='value']"/>
+				</CONTROL-NUMBER>
+			</Record>
+      </xsl:for-each>
+    </a:PD>
+	</xsl:template>
+</xsl:stylesheet><!-- Stylus Studio meta-information - (c) 2004-2009. Progress Software Corporation. All rights reserved.
+
+<metaInformation>
+	<scenarios/>
+	<MapperMetaTag>
+		<MapperInfo srcSchemaPathIsRelative="yes" srcSchemaInterpretAsXML="no" destSchemaPath="..\bf.bts.applications.ESB.schema.Export\Fulfillment\AetnaPD.xsd" destSchemaRoot="PD" destSchemaPathIsRelative="yes" destSchemaInterpretAsXML="no">
+			<SourceSchema srcSchemaPath="file:///d:/enterpriseServices/trunk/enterpriseSchemas/src/main/xsd/schemas/benefitfocus/com/events/general/2011/1/1/notificationRequest.xsd" srcSchemaRoot="notificationRequestType" AssociatedInstance=""
+			              loaderFunction="document" loaderFunctionUsesURI="no"/>
+		</MapperInfo>
+		<MapperBlockPosition>
+			<template match="/">
+				<block path="a:PD/Header/GroupID/xsl:value-of" x="359" y="15"/>
+				<block path="a:PD/Header/FileFormatName/xsl:value-of" x="357" y="37"/>
+				<block path="a:PD/Header/FileFormatVersion/xsl:value-of" x="358" y="62"/>
+				<block path="a:PD/Header/ControlNumber/xsl:value-of" x="317" y="179"/>
+				<block path="a:PD/Header/CreationDate/xsl:value-of" x="356" y="85"/>
+				<block path="a:PD/Header/CreationTime/xsl:value-of" x="354" y="108"/>
+				<block path="a:PD/Header/SectionCount/xsl:value-of" x="354" y="130"/>
+				<block path="a:PD/Header/UsageCode/xsl:value-of" x="356" y="152"/>
+				<block path="a:PD/Header/NumberOfLines/xsl:value-of" x="363" y="192"/>
+				<block path="a:PD/Record/PC-PRT-Type/xsl:if/=[0]" x="225" y="85"/>
+				<block path="a:PD/Record/PC-PRT-Type/xsl:if" x="271" y="87"/>
+				<block path="a:PD/Record/PC-PRT-Type/xsl:if/xsl:value-of" x="341" y="117"/>
+				<block path="a:PD/Record/PC-PRT-Type/xsl:if[1]/!=[0]" x="105" y="85"/>
+				<block path="a:PD/Record/PC-PRT-Type/xsl:if[1]" x="151" y="87"/>
+				<block path="a:PD/Record/PC-PRT-Type/xsl:if[1]/xsl:value-of" x="221" y="117"/>
+			</template>
+		</MapperBlockPosition>
+		<TemplateContext></TemplateContext>
+		<MapperFilter side="source"></MapperFilter>
+	</MapperMetaTag>
+</metaInformation>
+-->

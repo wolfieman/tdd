@@ -1,0 +1,43 @@
+<eDirectFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:noNamespaceSchemaLocation="eDirect-EBS Trigger V1.0.xsd">
+    <eDirectRecord>
+        <HeaderInfo>
+            <HeaderRecordType>000</HeaderRecordType>
+            <HeaderTransactionID></HeaderTransactionID>
+            <HeaderTransactionType>EBSBATINTF</HeaderTransactionType>
+            <HeaderDateTime></HeaderDateTime>
+            <HeaderSenderID>BENEFIT_FOCUS_EDIRECT</HeaderSenderID>
+            <HeaderRecieverID>AETNA_EDI_GATEWAY</HeaderRecieverID>
+            <HeaderTestProdID/>
+        </HeaderInfo>
+        <FamilyTransactionRecord>
+            <BillPackage>
+                <MemberTransactionRecordType>FAM</MemberTransactionRecordType>
+                <FamilyID>BF0005803</FamilyID>
+                <IVLCustGroupID>BF0005803</IVLCustGroupID>
+                <LineOfBusiness>IVL</LineOfBusiness>
+                <PostedDTS>2012-02-14-16.01.26.213000</PostedDTS>
+                <BillRecordType>BPM</BillRecordType>
+                <CustomerFirstName>matt</CustomerFirstName>
+                <CustomerLastName>testwidscenario3</CustomerLastName>
+                <BillEffectiveDate>
+                </BillEffectiveDate>
+                <USAddressLine1>220 Popnlock Lane</USAddressLine1>
+                <USAddressCityName>Funkychicken</USAddressCityName>
+                <CountrySubCode>TN</CountrySubCode>
+                <USAddressCountryCode>US</USAddressCountryCode>
+                <ZipCode>37210</ZipCode>
+                <USTelephoneAreaCode>788</USTelephoneAreaCode>
+                <USTelephoneNumber>8888888</USTelephoneNumber>
+                <BillEmailPrefix>BILLING</BillEmailPrefix>
+                <BillEmailSuffix>AETNA.COM</BillEmailSuffix>
+            </BillPackage>
+        </FamilyTransactionRecord>
+        <TrailerInfo>
+            <TrailerRecordtype>999</TrailerRecordtype>
+            <FamilyTransactionCounter>0</FamilyTransactionCounter>
+            <SpecialRequestCounter>0</SpecialRequestCounter>
+            <TotalTransactionCounter>0</TotalTransactionCounter>
+        </TrailerInfo>
+    </eDirectRecord>
+</eDirectFile>
