@@ -1,0 +1,11 @@
+INSTUProot.nested.calculator
+/home/wolfie/projects/tdd/python/initial/test_python/src/root/nested/calculator.py
+INFOS:&&1|1|2|0&&2|3|2|1&&3|4|2|5&&2|6|2|1&&3|4|2|7&&2|8|2|1
+add=6
+current=4
+Calculator=1
+Calculator.add=7
+getCurrent=8
+__init__=3
+root.nested.calculator=2
+Calculator.__init__=5

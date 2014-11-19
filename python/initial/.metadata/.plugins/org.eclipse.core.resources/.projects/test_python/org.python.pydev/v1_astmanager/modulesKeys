@@ -1,0 +1,7 @@
+MODULES_MANAGER_V2
+calculator|/home/wolfie/projects/tdd/python/initial/test_python/src/calculator.py
+root.__init__|/home/wolfie/projects/tdd/python/initial/test_python/src/root/__init__.py
+root.nested.__init__|/home/wolfie/projects/tdd/python/initial/test_python/src/root/nested/__init__.py
+root.nested.calculator|/home/wolfie/projects/tdd/python/initial/test_python/src/root/nested/calculator.py
+root.nested.calculator_test|/home/wolfie/projects/tdd/python/initial/test_python/src/root/nested/calculator_test.py
+root.nested.coursera|/home/wolfie/projects/tdd/python/initial/test_python/src/root/nested/coursera.py

@@ -1,0 +1,16 @@
+'''
+Created on Nov 14, 2014
+
+@author: wolfie
+'''
+
+class Calculator(object):
+
+    def __init__(self):
+        self.current = 0
+    
+    def add(self, x, y):
+        self.current = x + y
+        return self.current
+    def getCurrent(self):
+        return self.current

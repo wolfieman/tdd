@@ -1,0 +1,14 @@
+'''
+Created on Nov 15, 2014
+
+@author: wolfie
+'''
+# computes the area of a triangle
+def triangle_area(base, height):     # header - ends in colon
+    area = (1.0 / 2) * base * height # body - all of body is indented
+    return area                      # body - return outputs value
+
+a1 = triangle_area(3, 8)
+print a1
+a2 = triangle_area(14, 2)
+print a2

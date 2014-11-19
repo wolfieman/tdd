@@ -1,0 +1,26 @@
+'''
+Created on Nov 15, 2014
+
+@author: wolfie
+'''
+############
+# This is a compilation of the examples from Week 1's Programming Tips.
+# Many of these functions have errors, so this file won't run as is.
+############
+
+
+import math
+
+
+############
+# Has multiple NameErrors
+def volume_cube(side):
+    return side ** 3
+
+s = 2
+print ("Volume of cube with side", s)
+print(" is, ")
+print(volume_cube(s))
+print(".")
+
+

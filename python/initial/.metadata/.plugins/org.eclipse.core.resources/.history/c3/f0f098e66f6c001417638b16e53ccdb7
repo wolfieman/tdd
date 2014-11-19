@@ -1,0 +1,8 @@
+'''
+Created on Nov 14, 2014
+
+@author: wolfie
+'''
+import sys
+
+print (sys.copyright)

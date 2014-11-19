@@ -1,0 +1,16 @@
+'''
+Created on Nov 14, 2014
+
+@author: wolfie
+'''
+class Primes(object):
+    
+    def is_prime(self, number):
+        """Return True if *number* is prime."""
+        for element in range(number):
+            if number % element == 0:
+                return False
+    
+        return True
+    
+   

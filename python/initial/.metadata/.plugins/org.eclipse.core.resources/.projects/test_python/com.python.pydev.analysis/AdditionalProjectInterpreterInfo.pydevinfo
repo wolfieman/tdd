@@ -1,0 +1,36 @@
+-- VERSION_4
+-- START DISKCACHE
+/home/wolfie/projects/tdd/python/initial/.metadata/.plugins/org.eclipse.core.resources/.projects/test_python/com.python.pydev.analysis/v2_indexcache
+calculator|1416080396000|/home/wolfie/projects/tdd/python/initial/test_python/src/calculator.py
+root.nested.coursera|1416106993000|/home/wolfie/projects/tdd/python/initial/test_python/src/root/nested/coursera.py
+root.__init__|1416018575000|/home/wolfie/projects/tdd/python/initial/test_python/src/root/__init__.py
+root.nested.__init__|1416018575000|/home/wolfie/projects/tdd/python/initial/test_python/src/root/nested/__init__.py
+root.nested.calculator|1416082072000|/home/wolfie/projects/tdd/python/initial/test_python/src/root/nested/calculator.py
+root.nested.calculator_test|1416082358000|/home/wolfie/projects/tdd/python/initial/test_python/src/root/nested/calculator_test.py
+-- END DISKCACHE
+-- START DICTIONARY
+8
+2=calculator
+4=root.nested.coursera
+8=CalculatorTest
+5=Calculator
+7=Calculator.add
+1=root.nested.calculator_test
+3=root.nested.calculator
+6=Calculator.__init__
+-- END DICTIONARY
+-- START TREE 1
+4
+cal|3|CalculatorTest!9@Calculator!17@Calculator!25@
+ran|1|random_dice!34@
+s|1|s!35@
+vol|1|volume_cube!34@
+-- END TREE
+-- START TREE 2
+5
+__i|1|__init__!5&26@
+add|1|add!5&26@
+cur|2|current!6&27@current!7&27@
+get|1|getCurrent!5&26@
+tes|1|test_calculator_add_method_returns_correct_result!8&10@
+-- END TREE
